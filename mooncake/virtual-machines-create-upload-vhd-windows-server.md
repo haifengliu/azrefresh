@@ -8,14 +8,14 @@
 
 This article shows you how to upload a virtual hard disk (VHD) with an operating system so you can use it as an image to create virtual machines based on that image. For more information about disks and images in Microsoft Azure, see [About Disks and Images in Azure](http://msdn.microsoft.com/zh-cn/library/windowsazure/jj672979.aspx).
 
-**Note**: When you create a virtual machine, you can customize the operating system settings to facilitate running your application. The configuration that you set is stored on disk for that virtual machine. For instructions, see [How to Create a Custom Virtual Machine](http://www./zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
+**Note**: When you create a virtual machine, you can customize the operating system settings to facilitate running your application. The configuration that you set is stored on disk for that virtual machine. For instructions, see [How to Create a Custom Virtual Machine](/zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
 
 ##Prerequisites##
 This article assumes that you have the following items:
 
-**An Azure subscription** - If you don't have one, you can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](http://www./zh-cn/develop/php/tutorials/create-a-windows-azure-account/).  
+**An Azure subscription** - If you don't have one, you can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](/zh-cn/develop/php/tutorials/create-a-windows-azure-account/).  
 
-**Microsoft Azure PowerShell** - You have the Microsoft Azure PowerShell module installed. To download the module, see [Microsoft Azure Downloads](http://www./zh-cn/downloads/). A tutorial to install and configure PowerShell with your Azure Subscription can be found [here](http://www./zh-cn/documentation/articles/install-configure-powershell/).
+**Microsoft Azure PowerShell** - You have the Microsoft Azure PowerShell module installed. To download the module, see [Microsoft Azure Downloads](/zh-cn/downloads/). A tutorial to install and configure PowerShell with your Azure Subscription can be found [here](/zh-cn/documentation/articles/install-configure-powershell/).
 
 - The [Add-AzureVHD](http://msdn.microsoft.com/zh-cn/library/azure/dn205185.aspx) cmdlet, which is part of the Microsoft Azure PowerShell module, is required to upload the VHD.
 
@@ -219,14 +219,14 @@ After you upload the .vhd, you add it as an image to the list of custom images a
 
 	![custom image](./media/virtual-machines-create-upload-vhd-windows-server/vm_custom_image.png)
 
-	When you create a new virtual machine, you can now use this new image. Choose **My Images** to show the new image. For instructions, see [Create a Virtual Machine Running Windows Server](http://www./zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
+	When you create a new virtual machine, you can now use this new image. Choose **My Images** to show the new image. For instructions, see [Create a Virtual Machine Running Windows Server](/zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
 
 	![create VM from custom image](./media/virtual-machines-create-upload-vhd-windows-server/create_vm_custom_image.png)
 
 ## Next Steps ##
  
 
-After creating a virtual machine, trying creating a SQL Server Virtual Machine. For instructions, see [Provisioning a SQL Server Virtual Machine on Microsoft Azure](http://www./zh-cn/documentation/articles/virtual-machines-provision-sql-server/). 
+After creating a virtual machine, trying creating a SQL Server Virtual Machine. For instructions, see [Provisioning a SQL Server Virtual Machine on Microsoft Azure](/zh-cn/documentation/articles/virtual-machines-provision-sql-server/). 
 
 [Step 1: Prepare the image to be uploaded]: #prepimage
 [Step 2: Create a storage account in Azure]: #createstorage

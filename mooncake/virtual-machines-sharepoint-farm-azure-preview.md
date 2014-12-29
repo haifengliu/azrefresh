@@ -41,15 +41,15 @@ From the Central Administration SharePoint site, you can configure My sites, Sha
 
 Notes:
 
-- The Azure Preview Portal creates these virtual machines within your subscription.
-- The Azure Preview Portal creates both of these farms in a cloud-only virtual network with an Internet-facing web presence. There is no site-to-site VPN connection back to your organization network. 
+- The Azure Portal creates these virtual machines within your subscription.
+- The Azure Portal creates both of these farms in a cloud-only virtual network with an Internet-facing web presence. There is no site-to-site VPN connection back to your organization network. 
 - You can administer these servers through remote desktop connections.
 
 ##Stepping through configuration##
 
 To create your SharePoint farm with SharePoint Farm, do the following:
 
-1. In the [Microsoft Azure Preview Portal](https://portal.azure.com/), click  **Virtual Machines** > **SharePoint Server Farm**.
+1. In the [Microsoft Azure Portal](https://www.windowsazure.cn), click  **Virtual Machines** > **SharePoint Server Farm**.
 2. In the **Create a SharePoint farm** pane, type the name of a resource group.
 3. Type a user name and password for a local administrator account on each virtual machine in your farm. Choose a name and password that is difficult to guess.
 4. If you want the high-availability farm, click **Enable high availability**.

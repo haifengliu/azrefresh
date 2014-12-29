@@ -24,19 +24,22 @@ Azure Storage is accessible from anywhere in the world, from any type of applica
 
 Azure Storage supports clients using a diverse set of operating systems (including Windows and Linux) and a variety of programming languages (including .NET, Java, and C++) for convenient development. Azure Storage also exposes data resources via simple REST APIs, which are available to any client capable of sending and receiving data via HTTP/HTTPS.
 
+<!--
 Azure Premium Storage is now available in preview. Azure Premium Storage delivers high-performance, low-latency disk support for I/O intensive workloads running on Azure Virtual Machines. With Azure Premium Storage, you can attach multiple persistent data disks to a virtual machine and configure them to meet your performance requirements. Each data disk is backed by an SSD disk in Azure Premium Storage for maximum I/O performance. See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for more details. 
-
+-->
 ## Introducing the Azure Storage Services ##
 
 An Azure storage account is a secure account that gives you access to services in Azure Storage. Your storage account provides the unique namespace for your storage resources. There are two types of storage accounts:
 
 - A standard storage account includes Blob, Table, Queue, and File storage.
+<!--
 - A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure Preview page](/zh-cn/services/preview/).
-
-Before you can create a storage account, you must have an Azure subscription, which is a plan that gives you access to a variety of Azure services. You can create up to 100 uniquely named storage accounts with a single subscription. See [Storage Pricing Details](http://www./zh-cn/pricing/details/storage/) for information on volume pricing.
-
-You can get started with Azure with a [free trial](/zh-cn/pricing/1rmb-trial/). Once you decide to purchase a plan, you can choose from a variety of [purchase options](/zh-cn/pricing/purchase-options/). If you’re an [MSDN subscriber](/zh-cn/pricing/member-offers/msdn-benefits-details/), you get free monthly credits that you can use with Azure services, including Azure Storage.
-
+-->
+Before you can create a storage account, you must have an Azure subscription, which is a plan that gives you access to a variety of Azure services. You can create up to 100 uniquely named storage accounts with a single subscription. See [Storage Pricing Details](/zh-cn/pricing/details/storage/) for information on volume pricing.
+<!--
+You can get started with Azure with a [free trial](/zh-cn/pricing/1rmb-trial/). 
+Once you decide to purchase a plan, you can choose from a variety of [purchase options](/zh-cn/pricing/purchase-options/). If you’re an [MSDN subscriber](/zh-cn/pricing/member-offers/msdn-benefits-details/), you get free monthly credits that you can use with Azure services, including Azure Storage.
+-->
 ### Standard Storage Accounts
 
 A standard storage account gives you access to Blob storage, Table storage, Queue storage, and File storage:
@@ -44,8 +47,9 @@ A standard storage account gives you access to Blob storage, Table storage, Queu
 - **Blob storage** stores file data. A blob can be any type of text or binary data, such as a document, media file, or application installer. 
 - **Table storage** stores structured datasets. Table storage is a NoSQL key-attribute data store, which allows for rapid development and fast access to large quantities of data.
 - **Queue storage** provides reliable messaging for workflow processing and for communication between components of cloud services.
+<!--
 - **File storage (Preview)** offers shared storage for legacy applications using the standard SMB 2.1 protocol. Azure virtual machines and cloud services can share file data across application components via mounted shares, and on-premise applications can access file data in a share via the File service REST API. File storage is available by request via the [Azure Preview page](/zh-cn/services/preview/). 
-
+-->
 Each standard storage account can contain up to 500 TB of combined blob, queue, table, and file data. See the [Azure Storage Scalability and Performance Targets](http://msdn.microsoft.com/library/windowsazure/dn249410.aspx) for details about standard storage account capacity.
 
 The image below shows the relationships between the Azure storage resources in a standard storage account:

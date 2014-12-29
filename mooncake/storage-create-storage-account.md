@@ -6,11 +6,12 @@
 
 An Azure storage account is a secure account that gives you access to services in Azure Storage. Your storage account provides the unique namespace for your data, and by default, it is available only to you, the account owner. 
 
-There are two types of storage accounts:
+There is one types of storage accounts in China:
 
-- A standard storage account includes Blob, Table, and Queue storage. File storage is available by request via the [Azure Preview page](/zh-cn/services/preview/).
-- A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure Preview page](/zh-cn/services/preview/). See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for an in-depth overview of Premium Storage.
-
+- A standard storage account includes Blob, Table, and Queue storage. File storage is available by request via the [Azure portal](/zh-cn/).
+<!--
+- A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure portal](/zh-cn/). See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for an in-depth overview of Premium Storage.
+-->
 You are billed for Azure Storage usage based on your storage account. Storage costs are based on four factors: storage capacity, replication scheme, storage transactions, and data egress. 
 
 - Storage capacity refers to how much of your storage account allotment you are using to store data. The cost of simply storing your data is determined by how much data you are storing, and how it is replicated. 
@@ -18,7 +19,7 @@ You are billed for Azure Storage usage based on your storage account. Storage co
 - Transactions refer to all read and write operations to Azure Storage. 
 - Data egress refers to data transferred out of an Azure region. When the data in your storage account is accessed by an application that is not running in the same region, whether that application is a cloud service or some other type of application, then you are charged for data egress. (For Azure services, you can take steps to group your data and services in the same data centers to reduce or eliminate data egress charges.)  
 
-The [Storage Pricing Details](http://www./zh-cn/pricing/details/#storage) page provides detailed pricing information for storage capacity, replication, and transactions. The [Data Transfers Pricing Details](http://www./zh-cn/pricing/details/data-transfers/) provides detailed pricing information for data egress.
+The [Storage Pricing Details](/zh-cn/pricing/details/#storage) page provides detailed pricing information for storage capacity, replication, and transactions. The [Data Transfers Pricing Details](/zh-cn/pricing/details/data-transfers/) provides detailed pricing information for data egress.
 
 For details about storage account capacity and performance targets, see [Azure Storage Scalability and Performance Targets](http://msdn.microsoft.com/library/windowsazure/dn249410.aspx).
 

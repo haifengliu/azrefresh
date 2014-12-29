@@ -15,9 +15,9 @@ This article organizes the proven practices into the following groups. Proven pr
 -	Blobs
 -	Tables
 -	Queues  
-
+<!--
 The Azure Files service is currently in Preview, and we will add proven practices here in the future.  
-
+-->
 |Done|	Area|	Category|	Question
 |----|------|-----------|-----------
 ||All Services|	Scalability Targets|[Is your application designed to avoid approaching the scalability targets?](#subheading1)

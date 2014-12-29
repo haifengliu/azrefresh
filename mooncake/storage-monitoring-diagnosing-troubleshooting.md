@@ -1143,8 +1143,9 @@ You can also use the Application Insights feature for Visual Studio Online as pa
 - Make sure your web service is available and responsive. Whether your app is a  Website or a device app that uses a web service, it can test your URL every few minutes from locations around the world, and let you know if there’s a problem. 
 - Quickly diagnose any performance issues or exceptions in your web service. Find out if CPU or other resources are being stretched, get stack traces from exceptions, and easily search through log traces. If the app’s performance drops below acceptable limits, we can send you an email. You can monitor both .NET and Java web services.
 
+<!--
 At the time of writing Application Insights is in preview. You can find more information at <a href="http://msdn.microsoft.com/zh-cn/library/dn481095.aspx" target="_blank">Application Insights for Visual Studio Online on MSDN</a>.
-
+-->
 
 <!--Anchors-->
 [Introduction]: #introduction

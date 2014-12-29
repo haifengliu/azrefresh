@@ -4,7 +4,7 @@
 
 # <a id="createstorageaccount"></a>Monitor a Storage Account in the Azure Management Portal
 
-You can monitor your storage accounts in the Azure Preview Management Portal. For each storage service associated with the storage account (Blob, Queue, and Table), you can choose the level of monitoring - minimal or verbose - and specify the appropriate data retention policy. 
+You can monitor your storage accounts in the Azure Management Portal. For each storage service associated with the storage account (Blob, Queue, and Table), you can choose the level of monitoring - minimal or verbose - and specify the appropriate data retention policy. 
 
 > [WACOM.NOTE] Additional costs are associated with examining monitoring data in the Management Portal. For more information, see <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/hh360997.aspx">Storage Analytics and Billing</a>. 
 

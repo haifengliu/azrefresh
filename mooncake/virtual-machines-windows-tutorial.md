@@ -5,11 +5,11 @@
 
 # Create a Virtual Machine Running Windows #
 
-<div class="dev-center-tutorial-selector sublanding"><a href="/zh-cn/documentation/articles/virtual-machines-windows-tutorial/" title="Azure Portal" class="current">Azure Portal</a><a href="/zh-cn/documentation/articles/virtual-machines-windows-tutorial-azure-preview/" title="Azure Preview Portal">Azure Preview Portal</a></div>
+<div class="dev-center-tutorial-selector sublanding"><a href="/zh-cn/documentation/articles/virtual-machines-windows-tutorial/" title="Azure Portal" class="current">Azure Portal</a></div>
 
 This tutorial shows you how easy it is to create an Azure virtual machine (VM) running Windows, using as an example a Windows Server image from the Image Gallery in the Azure Management Portal. The Image Gallery offers a variety of images, including Windows operating systems, Linux-based operating systems, and application images. 
 
-> [WACOM.NOTE] You don't need any experience with Azure VMs to finish this tutorial. However, you do need an Azure account. You can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](http://www./zh-cn/develop/php/tutorials/create-a-windows-azure-account/). 
+> [WACOM.NOTE] You don't need any experience with Azure VMs to finish this tutorial. However, you do need an Azure account. You can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](/zh-cn/develop/php/tutorials/create-a-windows-azure-account/). 
 
 This tutorial shows you:
 
@@ -25,9 +25,9 @@ If you'd like to know more, see [Virtual Machines](http://go.microsoft.com/fwlin
 This section shows you how to use the **From Gallery** option in the Management Portal to create the virtual machine. This option provides more configuration choices than the **Quick Create** option. For example, if you want to join a virtual machine to a virtual network, you'll need to use the **From Gallery** option.
 
 > [WACOM.NOTE] How many and what kind of images are available in the gallery depends upon the type of subscription you have. This tutorial uses a Windows Server image, but an MSDN subscription may have additional images available to you including desktop images. 
-
+<!--
 > You can also try the richer, customizable [Azure Preview Portal](https://portal.azure.com) to create a virtual machine, automate the deployment of multi-machine application templates, use enhanced VM monitoring and diagnostics features, and more. The available VM configuration options in the two Portals overlap substantially but aren't identical.  
-
+-->
 [WACOM.INCLUDE [virtual-machines-create-WindowsVM](../includes/virtual-machines-create-WindowsVM.md)]
 
 ## <a id="logon"> </a>How to log on to the virtual machine after you create it ##
@@ -38,7 +38,7 @@ This section shows you how to log on to the virtual machine so you can manage it
 
 ## <a id="attachdisk"> </a>How to attach a data disk to the new virtual machine ##
 
-This section shows you how to attach an empty data disk to the virtual machine. See the [Attach a Data Disk Tutorial](http://www./zh-cn/documentation/articles/storage-windows-attach-disk/) for more information on attaching empty disks as well as how to attach existing disks.
+This section shows you how to attach an empty data disk to the virtual machine. See the [Attach a Data Disk Tutorial](/zh-cn/documentation/articles/storage-windows-attach-disk/) for more information on attaching empty disks as well as how to attach existing disks.
 
 1. Sign in to the Azure [Management Portal](http://manage.windowsazure.cn).
 
@@ -101,11 +101,11 @@ This section shows you how to attach an empty data disk to the virtual machine. 
 
 To learn more about configuring Windows virtual machines on Azure, see these articles:
 
-[How to Connect Virtual Machines in a Cloud Service](http://www./zh-cn/documentation/articles/cloud-services-connect-virtual-machine/)
+[How to Connect Virtual Machines in a Cloud Service](/zh-cn/documentation/articles/cloud-services-connect-virtual-machine/)
 
-[How to Create and Upload your own Virtual Hard Disk containing the Windows Server Operating System](http://www./zh-cn/documentation/articles/virtual-machines-create-upload-vhd-windows-server/)
+[How to Create and Upload your own Virtual Hard Disk containing the Windows Server Operating System](/zh-cn/documentation/articles/virtual-machines-create-upload-vhd-windows-server/)
 
-[Manage the Availability of Virtual Machines](http://www./zh-cn/documentation/articles/manage-availability-virtual-machines/)
+[Manage the Availability of Virtual Machines](/zh-cn/documentation/articles/manage-availability-virtual-machines/)
 
 [About Azure VM configuration settings](http://msdn.microsoft.com/library/azure/dn763935.aspx)
 
