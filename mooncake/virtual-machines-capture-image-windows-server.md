@@ -62,7 +62,7 @@ The image is ready to be used as a template to create virtual machines. To do th
 [Manage Disks and Images]:http://msdn.microsoft.com/zh-cn/library/azure/jj672979.aspx
 [How to Create a Custom Virtual Machine]: ../virtual-machines-create-custom/
 [How to Attach a Data Disk to a Virtual Machine]: ../storage-windows-attach-disk/
-[How to Log on to a Virtual Machine Running Windows Server]:http://azure.microsoft.com/zh-cn/documentation/articles/virtual-machines-log-on-windows-server/
+[How to Log on to a Virtual Machine Running Windows Server]:/zh-cn/documentation/articles/virtual-machines-log-on-windows-server/
 [How to Use Sysprep: An Introduction]:http://technet.microsoft.com/zh-cn/library/bb457073.aspx
 [Run Sysprep.exe]: ./media/virtual-machines-capture-image-windows-server/SysprepCommand.png
 [Enter Sysprep.exe options]: ./media/virtual-machines-capture-image-windows-server/SysprepGeneral.png

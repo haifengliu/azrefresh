@@ -421,7 +421,7 @@ Use the Blob Storage Service from Java].
   [Prerequisites]: #bkmk_prerequisites
   [To use Azure blob storage to upload a file]: #bkmk_uploadfile
   [To delete a container]: #bkmk_deletecontainer
-  [Download the Azure SDK for Java]: http://azure.microsoft.com/zh-cn/develop/java/
-  [How to Create a Storage Account]: http://azure.microsoft.com/zh-cn/documentation/articles/storage-create-storage-account/
-  [How to Manage Storage Accounts]: http://azure.microsoft.com/zh-cn/documentation/articles/storage-manage-storage-account/
-  [How to Use the Blob Storage Service from Java]: http://azure.microsoft.com/zh-cn/documentation/articles/storage-java-how-to-use-blob-storage/
+  [Download the Azure SDK for Java]: /zh-cn/develop/java/
+  [How to Create a Storage Account]: /zh-cn/documentation/articles/storage-create-storage-account/
+  [How to Manage Storage Accounts]: /zh-cn/documentation/articles/storage-manage-storage-account/
+  [How to Use the Blob Storage Service from Java]: /zh-cn/documentation/articles/storage-java-how-to-use-blob-storage/

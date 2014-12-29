@@ -27,7 +27,7 @@ In this tutorial, you will:
     
     > - You can create a new virtual machine by using the per-minute paid SQL Server edition from the gallery and migrate your database files to this new virtual machine by following the steps at [How to migrate SQL Server database files and schema between virtual machines in Azure using data disks](http://msdn.microsoft.com/zh-cn/library/azure/jj898505.aspx). **Or**,
 
-    > - You can upgrade an existing instance of SQL Server Evaluation edition to a different edition of SQL Server under the [License Mobility through Software Assurance on Azure](http://azure.microsoft.com/zh-cn/pricing/license-mobility/) agreement by following the steps at [Upgrade to a Different Edition of SQL Server 2014](http://msdn.microsoft.com/zh-cn/library/cc707783(v=sql.120).aspx). For information on how to purchase the licensed copy of SQL Server, see [How to Buy SQL Server](http://www.microsoft.com/zh-cn/server-cloud/products/sql-server/buy.aspx#fbid=t8CT8yhDl9X).
+    > - You can upgrade an existing instance of SQL Server Evaluation edition to a different edition of SQL Server under the [License Mobility through Software Assurance on Azure](/zh-cn/pricing/license-mobility/) agreement by following the steps at [Upgrade to a Different Edition of SQL Server 2014](http://msdn.microsoft.com/zh-cn/library/cc707783(v=sql.120).aspx). For information on how to purchase the licensed copy of SQL Server, see [How to Buy SQL Server](http://www.microsoft.com/zh-cn/server-cloud/products/sql-server/buy.aspx#fbid=t8CT8yhDl9X).
    
 
 4. On the first **Virtual Machine Configuration** page, provide the following information:
@@ -348,7 +348,7 @@ You've seen how to create and configure a SQL Server on an Azure virtual machine
 
 [Technical Articles for SQL Server in Azure Virtual Machines](http://msdn.microsoft.com/zh-cn/library/azure/dn248435.aspx)
 
-- [White paper: Understand Azure SQL Database and SQL Server in Azure Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/articles/data-management-azure-sql-database-and-sql-server-iaas/)
+- [White paper: Understand Azure SQL Database and SQL Server in Azure Virtual Machines](/zh-cn/documentation/articles/data-management-azure-sql-database-and-sql-server-iaas/)
 
 - [White paper: Application Patterns and Development Strategies for SQL Server in Azure Virtual Machines](http://msdn.microsoft.com/library/azure/dn574746.aspx)
 

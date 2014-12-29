@@ -170,7 +170,7 @@ To remove a storage account that you are no longer using, use **Delete** on the 
 
 ## <a id="next"></a>Next steps
 
-- To learn more about Azure Storage, see the Azure Storage documentation on [azure.com](http://azure.microsoft.com/zh-cn/documentation/services/storage/) and on [MSDN](http://msdn.microsoft.com/en-us/library/gg433040.aspx). 
+- To learn more about Azure Storage, see the Azure Storage documentation on [azure.com](/zh-cn/documentation/services/storage/) and on [MSDN](http://msdn.microsoft.com/en-us/library/gg433040.aspx). 
 
 - Visit the [Azure Storage Team Blog](http://blogs.msdn.com/b/windowsazurestorage/).
 

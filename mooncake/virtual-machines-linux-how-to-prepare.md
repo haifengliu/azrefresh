@@ -564,7 +564,7 @@ In essence all distributions running on Azure will need to meet the following pr
 
 This list is by no means comprehensive as every distribution is different; and it is quite possible that even if you meet all the criteria below you will still need to significantly tweak your image to ensure that it properly runs on top of the platform.
 
-It is for this reason that we recommend that you start with one of our [partners endorsed images](http://azure.microsoft.com/zh-cn/documentation/articles/linux-endorsed-distributions/).
+It is for this reason that we recommend that you start with one of our [partners endorsed images](/zh-cn/documentation/articles/linux-endorsed-distributions/).
 
 The list below replaces step 1 of the process to create your own VHD:
 
@@ -582,7 +582,7 @@ The list below replaces step 1 of the process to create your own VHD:
 
 6.	You should Ensure that all SCSI devices mounted in your kernel include an I/O timeout of  300 seconds or more.
 
-7.	You will need to install the Azure Linux Agent following the steps in the [Linux Agent Guide](http://azure.microsoft.com/zh-cn/documentation/articles/virtual-machines-linux-agent-user-guide/). The agent has been released under the Apache 2 license and you can get the latest bits at the [Agent GitHub Location](http://go.microsoft.com/fwlink/p/?LinkID=250998&clcid=0x409)
+7.	You will need to install the Azure Linux Agent following the steps in the [Linux Agent Guide](/zh-cn/documentation/articles/virtual-machines-linux-agent-user-guide/). The agent has been released under the Apache 2 license and you can get the latest bits at the [Agent GitHub Location](http://go.microsoft.com/fwlink/p/?LinkID=250998&clcid=0x409)
 
 8.	In /etc/sudoers, comment out the following line, if it exists:
 

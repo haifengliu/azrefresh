@@ -109,17 +109,17 @@ To learn more about configuring Windows virtual machines on Azure, see these art
 
 [About Azure VM configuration settings](http://msdn.microsoft.com/library/azure/dn763935.aspx)
 
-[VIDEO: Getting Started with VHDs - What's Really Happening](http://azure.microsoft.com/zh-cn/documentation/videos/getting-started-with-azure-virtual-machines)
+[VIDEO: Getting Started with VHDs - What's Really Happening](/zh-cn/documentation/videos/getting-started-with-azure-virtual-machines)
 
-[VIDEO: FAQ with Mark Russinovich - Does Windows Azure run Windows?](http://azure.microsoft.com/zh-cn/documentation/videos/mark-russinovich-windows-on-azure)
+[VIDEO: FAQ with Mark Russinovich - Does Windows Azure run Windows?](/zh-cn/documentation/videos/mark-russinovich-windows-on-azure)
 
-[VIDEO: Adding a new virtual machine to a Web Farm by making reusable images](http://azure.microsoft.com/zh-cn/documentation/videos/adding-virtual-machines-web-farm)
+[VIDEO: Adding a new virtual machine to a Web Farm by making reusable images](/zh-cn/documentation/videos/adding-virtual-machines-web-farm)
 
-[VIDEO: Adding Virtual Hard Drives, Storage Accounts, and Scaling Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/videos/adding-drives-scaling-virtual-machines)
+[VIDEO: Adding Virtual Hard Drives, Storage Accounts, and Scaling Virtual Machines](/zh-cn/documentation/videos/adding-drives-scaling-virtual-machines)
 
-[VIDEO: Scott Guthrie starts with Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/videos/virtual-machines-scottgu)
+[VIDEO: Scott Guthrie starts with Virtual Machines](/zh-cn/documentation/videos/virtual-machines-scottgu)
 
-[VIDEO: Storage and Disk Basics with Azure Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/videos/storage-and-disks-virtual-machines)
+[VIDEO: Storage and Disk Basics with Azure Virtual Machines](/zh-cn/documentation/videos/storage-and-disks-virtual-machines)
 
 
 

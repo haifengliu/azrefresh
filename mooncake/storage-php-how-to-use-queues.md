@@ -380,7 +380,7 @@ Now that you've learned the basics of the Azure Queue service, follow these link
 - See the MSDN Reference: [Storing and Accessing Data in Azure] []
 - Visit the Azure Storage Team Blog: <http://blogs.msdn.com/b/windowsazurestorage/>
 
-[download]: http://azure.microsoft.com/zh-cn/documentation/articles/php-download-sdk/
+[download]: /zh-cn/documentation/articles/php-download-sdk/
 [require_once]: http://www.php.net/manual/en/function.require-once.php
 [Azure Management Portal]: http://manage.windowsazure.cn/
 [Storing and Accessing Data in Azure]: http://msdn.microsoft.com/zh-cn/library/azure/gg433040.aspx

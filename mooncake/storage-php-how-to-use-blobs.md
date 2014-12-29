@@ -292,7 +292,7 @@ Now that you've learned the basics of the Azure Blob service, follow these links
 - See the PHP block blob example at <https://github.com/WindowsAzure/azure-sdk-for-php-samples/blob/master/storage/BlockBlobExample.php>.
 - See the PHP page blob example at <https://github.com/WindowsAzure/azure-sdk-for-php-samples/blob/master/storage/PageBlobExample.php>
 
-[download]: http://azure.microsoft.com/zh-cn/documentation/articles/php-download-sdk/
+[download]: /zh-cn/documentation/articles/php-download-sdk/
 [Storing and Accessing Data in Azure]: http://msdn.microsoft.com/zh-cn/library/azure/gg433040.aspx
 [container-acl]: http://msdn.microsoft.com/zh-cn/library/azure/dd179391.aspx
 [error-codes]: http://msdn.microsoft.com/zh-cn/library/azure/dd179439.aspx

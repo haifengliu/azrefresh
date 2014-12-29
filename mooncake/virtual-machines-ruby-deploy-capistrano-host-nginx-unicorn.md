@@ -468,5 +468,5 @@ To learn how to use the Azure SDK for Ruby to access Azure services from your Ru
 
 [management-portal]: https://manage.windowsazure.cn/
 [sqlite3]: http://www.sqlite.org/
-[ssh-on-azure]: http://azure.microsoft.com/zh-cn/documentation/articles/linux-use-ssh-key/
+[ssh-on-azure]: /zh-cn/documentation/articles/linux-use-ssh-key/
 [capistrano]: http://capistranorb.com

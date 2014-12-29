@@ -161,6 +161,6 @@ The following provides an overview of the Blob service components.
   [How to create a post-build action that uploads your build artifacts to your storage account]: #howtocreatepostbuild
   [How to create a build step that downloads from Azure blob storage]: #howtocreatebuildstep
   [Components used by the Blob service]: #components
-  [How to Create a Storage Account]: http://azure.microsoft.com/zh-cn/documentation/articles/storage-create-storage-account/
+  [How to Create a Storage Account]: /zh-cn/documentation/articles/storage-create-storage-account/
   [Meet Jenkins]: https://wiki.jenkins-ci.org/display/JENKINS/Meet+Jenkins
   [ms-open-tech]: http://msopentech.com

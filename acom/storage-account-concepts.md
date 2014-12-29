@@ -71,7 +71,7 @@ You can see the endpoints for your storage account on the storage Dashboard in t
 
 The URL for accessing an object in a storage account is built by appending the object's location in the storage account to the endpoint. For example, a blob address might have this format: http://*mystorageaccount*.blob.core.windows.net/*mycontainer*/*myblob*.
 
-You can also configure a custom domain name to use with your storage account. See [Configure a custom domain name for blob data in a storage account](http://azure.microsoft.com/zh-cn/documentation/articles/storage-custom-domain-name/) for details.
+You can also configure a custom domain name to use with your storage account. See [Configure a custom domain name for blob data in a storage account](/zh-cn/documentation/articles/storage-custom-domain-name/) for details.
 
 ### <a id="affinity-group"></a>Service co-location with an affinity group 
 

@@ -38,7 +38,7 @@ Most images are provided by Microsoft or partners, however you can create your o
 
 When performing service management operations, such as those exposed through the **Azure::VirtualMachineService** class, you must provide your Azure Subscription ID and a file containing a management certificate for your subscription. Both are used by the SDK when authenticating to the Azure REST API.
 
-You can obtain the subscription Id and a management certificate by using the Azure Cross-Platform Command-Line Interface (xplat-cli). See [Install and configure the Azure Cross-platform Command-Line Interface](http://azure.microsoft.com/zh-cn/documentation/articles/xplat-cli/) for information on installing and configuring the xplat-cli.
+You can obtain the subscription Id and a management certificate by using the Azure Cross-Platform Command-Line Interface (xplat-cli). See [Install and configure the Azure Cross-platform Command-Line Interface](/zh-cn/documentation/articles/xplat-cli/) for information on installing and configuring the xplat-cli.
 
 Once the xplat-cli is configured, you can perform the following steps to retrieve your Azure subscription ID and export a management certificate:
 
@@ -350,6 +350,6 @@ To delete a storage account, use the **delete\_storage\_account** method and spe
 
 Now that you've learned the basics of programmatically creating Azure Virtual machines, follow these links to learn how to do more about working with VMs.
 
-* Visit the [Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/services/virtual-machines/) feature page
+* Visit the [Virtual Machines](/zh-cn/documentation/services/virtual-machines/) feature page
 *  See the MSDN Reference: [Virtual Machines](http://msdn.microsoft.com/zh-cn/library/azure/jj156003.aspx)
-* Learn how to host a [Ruby on Rails application on a Virtual Machine](http://azure.microsoft.com/zh-cn/documentation/articles/virtual-machines-ruby-rails-web-app-linux/)
+* Learn how to host a [Ruby on Rails application on a Virtual Machine](/zh-cn/documentation/articles/virtual-machines-ruby-rails-web-app-linux/)

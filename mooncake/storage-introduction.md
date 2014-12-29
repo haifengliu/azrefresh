@@ -70,7 +70,7 @@ Every blob is organized into a container. Containers also provide a useful way t
 
 Blob storage offers two types of blobs, block blobs and page blobs (disks). Block blobs are optimized for streaming and storing cloud objects, and are a good choice for storing documents, media files, backups etc. A block blob can be up to 200 GB in size. Page blobs are optimized for representing IaaS disks and supporting random writes, and may be up to 1 TB in size. An Azure virtual machine network attached IaaS disk is a VHD stored as a page blob.
 
-For very large datasets where network constraints make uploading or downloading data to Blob storage over the wire unrealistic, you can ship a hard drive to Microsoft to import or export data directly from the data center using the [Azure Import/Export Service](http://azure.microsoft.com/zh-cn/documentation/articles/storage-import-export-service/). You can also copy blob data within your storage account or across storage accounts.
+For very large datasets where network constraints make uploading or downloading data to Blob storage over the wire unrealistic, you can ship a hard drive to Microsoft to import or export data directly from the data center using the [Azure Import/Export Service](/zh-cn/documentation/articles/storage-import-export-service/). You can also copy blob data within your storage account or across storage accounts.
 
 ## Table Storage ##
 
@@ -132,7 +132,7 @@ To get started with Azure Storage, explore these resources:
 ### Downloads
 
 - [Azure Storage NuGet Package - Client Libraries for .NET, Windows Phone, and Windows Runtime](https://www.nuget.org/packages/WindowsAzure.Storage/)
-- [Azure SDKs and Tools](http://azure.microsoft.com/zh-cn/downloads/)
+- [Azure SDKs and Tools](/zh-cn/downloads/)
 - [Azure Storage Emulator](http://www.microsoft.com/zh-cn/download/details.aspx?id=43709)
 
 ### Source Code
@@ -143,7 +143,7 @@ To get started with Azure Storage, explore these resources:
 
 - [Azure Storage Documentation](/zh-cn/documentation/services/storage/)
 - [Azure Storage Services REST API Reference](http://msdn.microsoft.com/zh-cn/library/dd179355.aspx)
-- [AzCopy Command-Line Tool Reference](http://azure.microsoft.com/zh-cn/documentation/articles/storage-use-azcopy/)
+- [AzCopy Command-Line Tool Reference](/zh-cn/documentation/articles/storage-use-azcopy/)
 
 <h3>For PowerShell Users</h3>
 - [Azure Storage Cmdlets](http://msdn.microsoft.com/en-us/library/azure/dn806401.aspx)
