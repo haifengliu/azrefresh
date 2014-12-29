@@ -81,7 +81,7 @@ Azure File storage is currently in preview. To request access to the preview, na
 
 ###Install the PowerShell cmdlets for Azure Storage
 
-To prepare to use PowerShell, download and install the Azure PowerShell cmdlets. See [How to install and configure Azure PowerShell](/en-us/documentation/articles/install-configure-powershell/) for the install point and installation instructions.
+To prepare to use PowerShell, download and install the Azure PowerShell cmdlets. See [How to install and configure Azure PowerShell](/zh-cn/documentation/articles/install-configure-powershell/) for the install point and installation instructions.
 
 > [WACOM.NOTE] The PowerShell cmdlets for the File service are available only in the latest Azure PowerShell module, version 0.8.5 and later. It's recommended that you download and install or upgrade to the latest Azure PowerShell module.
 
@@ -128,8 +128,8 @@ To see the file in the directory, you can list the directory's files. This comma
 
 To demonstrate how to mount an Azure file share, we'll now create an Azure virtual machine, and remote into it to mount the share. 
 
-1. First, create a new Azure virtual machine by following the instructions in [Create a Virtual Machine Running Windows Server](/en-us/documentation/articles/virtual-machines-windows-tutorial/).
-2. Next, remote into the virtual machine by following the instructions in [How to Log on to a Virtual Machine Running Windows Server](/en-us/documentation/articles/virtual-machines-log-on-windows-server/).
+1. First, create a new Azure virtual machine by following the instructions in [Create a Virtual Machine Running Windows Server](/zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
+2. Next, remote into the virtual machine by following the instructions in [How to Log on to a Virtual Machine Running Windows Server](/zh-cn/documentation/articles/virtual-machines-log-on-windows-server/).
 3. Open a PowerShell window on the virtual machine. 
 
 ###Persist your storage account credentials for the virtual machine
@@ -254,10 +254,10 @@ for more detailed information.
   </ul>
 </li><li>View more feature guides to learn about additional options for storing data in Azure.
   <ul>
-    <li>Use <a href="/en-us/documentation/articles/storage-dotnet-how-to-use-blobs/">Blob Storage</a> to store unstructured data.</li>
-    <li>Use <a href="/en-us/documentation/articles/storage-dotnet-how-to-use-tables/">Table Storage</a> to store structured data.</li>
-    <li>Use <a href="/en-us/documentation/articles/storage-dotnet-how-to-use-queues/">Queue Storage</a> to store messages reliably.</li>
-    <li>Use <a href="/en-us/documentation/articles/sql-database-dotnet-how-to-use/">SQL Database</a> to store relational data.</li>
+    <li>Use <a href="/zh-cn/documentation/articles/storage-dotnet-how-to-use-blobs/">Blob Storage</a> to store unstructured data.</li>
+    <li>Use <a href="/zh-cn/documentation/articles/storage-dotnet-how-to-use-tables/">Table Storage</a> to store structured data.</li>
+    <li>Use <a href="/zh-cn/documentation/articles/storage-dotnet-how-to-use-queues/">Queue Storage</a> to store messages reliably.</li>
+    <li>Use <a href="/zh-cn/documentation/articles/sql-database-dotnet-how-to-use/">SQL Database</a> to store relational data.</li>
   </ul>
 </li>
 </ul>

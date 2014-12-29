@@ -355,9 +355,9 @@ to learn how to do more complex storage tasks.
   [How To: Working with Shared Access Signatures]: #sas
   [using the REST API]: http://msdn.microsoft.com/zh-cn/library/windowsazure/hh264518.aspx
   [Azure Management Portal]: http://manage.windowsazure.cn
-  [Create and deploy a Node.js application to an Azure  Website]: /en-us/documentation/articles/web-sites-nodejs-develop-deploy-mac/
-  [Node.js Cloud Service with Storage]: /en-us/documentation/articles/storage-nodejs-use-table-storage-cloud-service-app/
-  [Node.js Web Application with Storage]: /en-us/documentation/articles/storage-nodejs-use-table-storage-web-site/
+  [Create and deploy a Node.js application to an Azure  Website]: /zh-cn/documentation/articles/web-sites-nodejs-develop-deploy-mac/
+  [Node.js Cloud Service with Storage]: /zh-cn/documentation/articles/storage-nodejs-use-table-storage-cloud-service-app/
+  [Node.js Web Application with Storage]: /zh-cn/documentation/articles/storage-nodejs-use-table-storage-web-site/
 
   
   [Queue1]: ./media/storage-nodejs-how-to-use-queues/queue1.png
@@ -366,7 +366,7 @@ to learn how to do more complex storage tasks.
   
   
   
-  [Node.js Cloud Service]: /en-us/documentation/articles/cloud-services-nodejs-develop-deploy-app/
+  [Node.js Cloud Service]: /zh-cn/documentation/articles/cloud-services-nodejs-develop-deploy-app/
   [Storing and Accessing Data in Azure]: http://msdn.microsoft.com/zh-cn/library/azure/gg433040.aspx
   [Azure Storage Team Blog]: http://blogs.msdn.com/b/windowsazurestorage/
- [ Website with WebMatrix]: /en-us/documentation/articles/web-sites-nodejs-use-webmatrix/
+ [ Website with WebMatrix]: /zh-cn/documentation/articles/web-sites-nodejs-use-webmatrix/

@@ -5,7 +5,7 @@
 
 # Create a Virtual Machine Running Windows #
 
-<div class="dev-center-tutorial-selector sublanding"><a href="/en-us/documentation/articles/virtual-machines-windows-tutorial/" title="Azure Portal" class="current">Azure Portal</a><a href="/en-us/documentation/articles/virtual-machines-windows-tutorial-azure-preview/" title="Azure Preview Portal">Azure Preview Portal</a></div>
+<div class="dev-center-tutorial-selector sublanding"><a href="/zh-cn/documentation/articles/virtual-machines-windows-tutorial/" title="Azure Portal" class="current">Azure Portal</a><a href="/zh-cn/documentation/articles/virtual-machines-windows-tutorial-azure-preview/" title="Azure Preview Portal">Azure Preview Portal</a></div>
 
 This tutorial shows you how easy it is to create an Azure virtual machine (VM) running Windows, using as an example a Windows Server image from the Image Gallery in the Azure Management Portal. The Image Gallery offers a variety of images, including Windows operating systems, Linux-based operating systems, and application images. 
 
@@ -109,17 +109,17 @@ To learn more about configuring Windows virtual machines on Azure, see these art
 
 [About Azure VM configuration settings](http://msdn.microsoft.com/library/azure/dn763935.aspx)
 
-[VIDEO: Getting Started with VHDs - What's Really Happening](http://azure.microsoft.com/en-us/documentation/videos/getting-started-with-azure-virtual-machines)
+[VIDEO: Getting Started with VHDs - What's Really Happening](http://azure.microsoft.com/zh-cn/documentation/videos/getting-started-with-azure-virtual-machines)
 
-[VIDEO: FAQ with Mark Russinovich - Does Windows Azure run Windows?](http://azure.microsoft.com/en-us/documentation/videos/mark-russinovich-windows-on-azure)
+[VIDEO: FAQ with Mark Russinovich - Does Windows Azure run Windows?](http://azure.microsoft.com/zh-cn/documentation/videos/mark-russinovich-windows-on-azure)
 
-[VIDEO: Adding a new virtual machine to a Web Farm by making reusable images](http://azure.microsoft.com/en-us/documentation/videos/adding-virtual-machines-web-farm)
+[VIDEO: Adding a new virtual machine to a Web Farm by making reusable images](http://azure.microsoft.com/zh-cn/documentation/videos/adding-virtual-machines-web-farm)
 
-[VIDEO: Adding Virtual Hard Drives, Storage Accounts, and Scaling Virtual Machines](http://azure.microsoft.com/en-us/documentation/videos/adding-drives-scaling-virtual-machines)
+[VIDEO: Adding Virtual Hard Drives, Storage Accounts, and Scaling Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/videos/adding-drives-scaling-virtual-machines)
 
-[VIDEO: Scott Guthrie starts with Virtual Machines](http://azure.microsoft.com/en-us/documentation/videos/virtual-machines-scottgu)
+[VIDEO: Scott Guthrie starts with Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/videos/virtual-machines-scottgu)
 
-[VIDEO: Storage and Disk Basics with Azure Virtual Machines](http://azure.microsoft.com/en-us/documentation/videos/storage-and-disks-virtual-machines)
+[VIDEO: Storage and Disk Basics with Azure Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/videos/storage-and-disks-virtual-machines)
 
 
 

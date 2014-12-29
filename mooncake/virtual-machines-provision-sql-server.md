@@ -348,7 +348,7 @@ You've seen how to create and configure a SQL Server on an Azure virtual machine
 
 [Technical Articles for SQL Server in Azure Virtual Machines](http://msdn.microsoft.com/zh-cn/library/azure/dn248435.aspx)
 
-- [White paper: Understand Azure SQL Database and SQL Server in Azure Virtual Machines](http://azure.microsoft.com/en-us/documentation/articles/data-management-azure-sql-database-and-sql-server-iaas/)
+- [White paper: Understand Azure SQL Database and SQL Server in Azure Virtual Machines](http://azure.microsoft.com/zh-cn/documentation/articles/data-management-azure-sql-database-and-sql-server-iaas/)
 
 - [White paper: Application Patterns and Development Strategies for SQL Server in Azure Virtual Machines](http://msdn.microsoft.com/library/azure/dn574746.aspx)
 
