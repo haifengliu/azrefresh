@@ -36,7 +36,7 @@ For more information on blobs, see the [Next Steps](#next-steps) section.
 ## <a id="CreateRubyApp"></a>Create a Ruby Application
 
 Create a Ruby application. For instructions, 
-see [Create a Ruby Application on Azure](/en-us/develop/ruby/tutorials/web-app-with-linux-vm/).
+see [Create a Ruby Application on Azure](/zh-cn/develop/ruby/tutorials/web-app-with-linux-vm/).
 
 ## <a id="ConfigAccessStorage"></a>Configure Your Application to Access Storage
 

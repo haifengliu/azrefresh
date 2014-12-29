@@ -43,7 +43,7 @@ In this tutorial, you will:
     > Select A3 or higher when using SQL Server Enterprise Edition.
    	> Select A4 when using SQL Server 2012 or 2014 Enterprise Optimized for Transactional Workloads images.  
    	> Select A7 when using SQL Server 2012 or 2014 Enterprise Optimized for Data Warehousing Workloads images. 
-   	> The size selected limits the number of data disks you can configure. For most up-to-date information on available virtual machine sizes and the number of data disks that you can attach to a virtual machine, see [Virtual Machine Sizes for Azure](http://msdn.microsoft.com/en-us/library/azure/dn197896.aspx).
+   	> The size selected limits the number of data disks you can configure. For most up-to-date information on available virtual machine sizes and the number of data disks that you can attach to a virtual machine, see [Virtual Machine Sizes for Azure](http://msdn.microsoft.com/zh-cn/library/azure/dn197896.aspx).
 
 	Click the next arrow on the bottom right to continue.
 

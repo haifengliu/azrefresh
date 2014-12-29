@@ -8,7 +8,7 @@
 
 A virtual machine in Azure runs the operating system that you choose when you create the virtual machine. Azure stores a virtual machine's operating system in a virtual hard disk in VHD format (a .vhd file). A VHD of an operating system that has been prepared for duplication is called an image. This article shows you how to create your own image by uploading a .vhd file with an operating system you've installed and generalized. For more information about disks and images in Azure, see [Manage Disks and Images](http://msdn.microsoft.com/zh-cn/library/azure/jj672979.aspx).
 
-**Note**: When you create a virtual machine, you can customize the operating system settings to facilitate running your application. The configuration that you set is stored on disk for that virtual machine. For instructions, see [How to Create a Custom Virtual Machine](/en-us/manage/windows/how-to-guides/custom-create-a-vm/).
+**Note**: When you create a virtual machine, you can customize the operating system settings to facilitate running your application. The configuration that you set is stored on disk for that virtual machine. For instructions, see [How to Create a Custom Virtual Machine](/zh-cn/manage/windows/how-to-guides/custom-create-a-vm/).
 
 **Important**: The Azure platform SLA applies to virtual machines running the Linux OS only when one of the endorsed distributions is used with the configuration details as specified in [this article](http://support.microsoft.com/kb/2805216). All Linux distributions that are provided in the Azure image gallery are endorsed distributions with the required configuration.
 
@@ -26,7 +26,7 @@ This article assumes that you have the following items:
 
 - **Linux Azure command-line tool.** If you are using a Linux operating system to create your image, you use this tool to upload the VHD file. To download the tool, see [Azure Command-Line Tools for Linux and Mac](http://go.microsoft.com/fwlink/?LinkID=253691&clcid=0x409).
 
-- **Add-AzureVhd cmdlet**, which is part of the Azure PowerShell module. To download the module, see [Azure Downloads](/en-us/develop/downloads/). For reference information, see [Add-AzureVhd](http://msdn.microsoft.com/zh-cn/library/azure/dn205185.aspx).
+- **Add-AzureVhd cmdlet**, which is part of the Azure PowerShell module. To download the module, see [Azure Downloads](/zh-cn/develop/downloads/). For reference information, see [Add-AzureVhd](http://msdn.microsoft.com/zh-cn/library/azure/dn205185.aspx).
 
 For all distributions note the following:
 

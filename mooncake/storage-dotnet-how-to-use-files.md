@@ -69,7 +69,7 @@ For details about how to name shares, directories, and files, see [Naming and Re
 
 ##<a name="create-account"></a>Create an Azure Storage account
 
-Azure File storage is currently in preview. To request access to the preview, navigate to the [Microsoft Azure Preview page](/en-us/services/preview/), and request access to **Azure Files**. Once your request is approved, you'll be notified that you can access the File storage preview. You can then create a storage account for accessing File storage.
+Azure File storage is currently in preview. To request access to the preview, navigate to the [Microsoft Azure Preview page](/zh-cn/services/preview/), and request access to **Azure Files**. Once your request is approved, you'll be notified that you can access the File storage preview. You can then create a storage account for accessing File storage.
 
 > [WACOM.NOTE] File storage is currently available only for new storage accounts. After your subscription is granted access to File storage, create a new storage account for use with this guide.
 

@@ -642,7 +642,7 @@ While the steps in this article describe using the Table Service to store inform
 [Azure command-line tool for Mac and Linux]    
 [Create and deploy a Node.js application to Azure  Websites]: /zh-cn/documentation/articles/web-sites-nodejs-develop-deploy-mac/
 [Publishing to Azure  Websites with Git]: /zh-cn/documentation/articles/web-sites-publish-source-control/
-[Azure Developer Center]: /en-us/develop/nodejs/
+[Azure Developer Center]: /zh-cn/develop/nodejs/
 
 
 [node]: http://nodejs.org

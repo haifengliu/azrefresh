@@ -6,7 +6,7 @@
 
 You can monitor your storage accounts in the Azure Preview Management Portal. For each storage service associated with the storage account (Blob, Queue, and Table), you can choose the level of monitoring - minimal or verbose - and specify the appropriate data retention policy. 
 
-> [WACOM.NOTE] Additional costs are associated with examining monitoring data in the Management Portal. For more information, see <a href="http://msdn.microsoft.com/en-us/library/windowsazure/hh360997.aspx">Storage Analytics and Billing</a>. 
+> [WACOM.NOTE] Additional costs are associated with examining monitoring data in the Management Portal. For more information, see <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/hh360997.aspx">Storage Analytics and Billing</a>. 
 
 > [WACOM.NOTE] The Azure File service does not currently support Storage Analytics.
 
@@ -51,7 +51,7 @@ Metrics are stored in the storage account in four tables named $MetricsTransacti
 
 After you set the monitoring levels and retention policies, you can choose which of the available metrics to monitor in the Management Portal, and which metrics to plot on metrics charts. A default set of metrics are displayed at each monitoring level. You can use **Add Metrics** to add or remove metrics from the metrics list.
 
-Metrics are stored in the storage account in four tables named $MetricsTransactionsBlob, $MetricsTransactionsTable, $MetricsTransactionsQueue, and $MetricsCapacityBlob. For more information, see [About Storage Analytics Metrics](http://msdn.microsoft.com/en-us/library/windowsazure/hh343258.aspx).
+Metrics are stored in the storage account in four tables named $MetricsTransactionsBlob, $MetricsTransactionsTable, $MetricsTransactionsQueue, and $MetricsCapacityBlob. For more information, see [About Storage Analytics Metrics](http://msdn.microsoft.com/zh-cn/library/windowsazure/hh343258.aspx).
 
 
 <h2><a id="customizestoragemonitoring"></a>How to: Customize the dashboard for monitoring</h2>

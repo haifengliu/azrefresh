@@ -40,7 +40,7 @@ information on tables, see the [Next Steps](#next-steps) section.
 ## <a id="create-a-ruby-application"></a>Create a Ruby Application
 
 Create a Ruby application. For instructions, 
-see [Create a Ruby Application on Azure](/en-us/develop/ruby/tutorials/web-app-with-linux-vm/).
+see [Create a Ruby Application on Azure](/zh-cn/develop/ruby/tutorials/web-app-with-linux-vm/).
 
 ## <a id="configure-your-application-to-access-storage"></a>Configure Your Application to Access Storage
 

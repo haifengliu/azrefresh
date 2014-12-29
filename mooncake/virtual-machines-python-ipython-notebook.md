@@ -345,5 +345,5 @@ profiling and parallel computing integration.
 [NumPy]:        http://www.numpy.org/               "NumPy"
 [Matplotlib]:   http://matplotlib.sourceforge.net/  "Matplotlib"
 
-[portal-vm-windows]: /en-us/manage/windows/tutorials/virtual-machine-from-gallery/
-[portal-vm-linux]: /en-us/manage/linux/tutorials/virtual-machine-from-gallery/
+[portal-vm-windows]: /zh-cn/manage/windows/tutorials/virtual-machine-from-gallery/
+[portal-vm-linux]: /zh-cn/manage/linux/tutorials/virtual-machine-from-gallery/

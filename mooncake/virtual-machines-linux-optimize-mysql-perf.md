@@ -51,7 +51,7 @@ You can see the added drives in the virtual machine by looking at the kernel mes
 ####Step 2: Create RAID with the additional disks
 Follow this article for detailed RAID setup steps:  
 
-[http://www.windowsazure.cn/zh-cn/documentation/articles/virtual-machines-linux-configure-RAID/](/zh-cn/documentation/articles/virtual-machines-linux-configure-RAID/)
+[/zh-cn/documentation/articles/virtual-machines-linux-configure-RAID/](/zh-cn/documentation/articles/virtual-machines-linux-configure-RAID/)
 
 >[AZURE.NOTE] If you are using the XFS file system, follow the steps below after you have created RAID.
 

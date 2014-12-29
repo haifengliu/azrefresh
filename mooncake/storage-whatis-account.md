@@ -9,8 +9,8 @@ An Azure storage account is a secure account that gives you access to services i
 
 There are two types of storage accounts:
 
-- A standard storage account includes Blob, Table, and Queue storage. File storage is available by request via the [Azure Preview page](/en-us/services/preview/).
-- A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure Preview page](/en-us/services/preview/). See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for an in-depth overview of Premium Storage.
+- A standard storage account includes Blob, Table, and Queue storage. File storage is available by request via the [Azure Preview page](/zh-cn/services/preview/).
+- A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure Preview page](/zh-cn/services/preview/). See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for an in-depth overview of Premium Storage.
 
 You are billed for Azure Storage usage based on your storage account. Storage costs are based on four factors: storage capacity, replication scheme, storage transactions, and data egress. 
 
@@ -19,7 +19,7 @@ You are billed for Azure Storage usage based on your storage account. Storage co
 - Transactions refer to all read and write operations to Azure Storage. 
 - Data egress refers to data transferred out of an Azure region. When the data in your storage account is accessed by an application that is not running in the same region, whether that application is a cloud service or some other type of application, then you are charged for data egress. (For Azure services, you can take steps to group your data and services in the same data centers to reduce or eliminate data egress charges.)  
 
-The [Storage Pricing Details](http://www.windowsazure.cn/zh-cn/pricing/overview/#storage) page provides detailed pricing information for storage capacity, replication, and transactions. The [Data Transfers Pricing Details](http://www.windowsazure.cn/zh-cn/pricing/overview/#data_transfer) provides detailed pricing information for data egress.
+The [Storage Pricing Details](/zh-cn/pricing/overview/#storage) page provides detailed pricing information for storage capacity, replication, and transactions. The [Data Transfers Pricing Details](/zh-cn/pricing/overview/#data_transfer) provides detailed pricing information for data egress.
 
 For details about storage account capacity and performance targets, see [Azure Storage Scalability and Performance Targets](http://msdn.microsoft.com/library/windowsazure/dn249410.aspx).
 
@@ -86,7 +86,7 @@ You can also configure a custom domain name to use with your storage account. Se
 
 An *affinity group* is a geographic grouping of your Azure services and VMs with your Azure storage account. An affinity group can improve service performance by locating computer workloads in the same data center or near the target user audience. Also, no billing charges are incurred for egress when data in a storage account is accessed from another service that is part of the same affinity group.
 
-> [WACOM.NOTE]  To create an affinity group, open the <b>Settings</b> area of the Management Portal, click <b>Affinity Groups</b>, and then click either <b>Add an affinity group</b> or the <b>Add</b> button. You can also create and manage affinity groups using the Azure Service Management API. See <a href="http://msdn.microsoft.com/en-us/library/windowsazure/ee460798.aspx">Operations on Affinity Groups</a> for more information.
+> [WACOM.NOTE]  To create an affinity group, open the <b>Settings</b> area of the Management Portal, click <b>Affinity Groups</b>, and then click either <b>Add an affinity group</b> or the <b>Add</b> button. You can also create and manage affinity groups using the Azure Service Management API. See <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/ee460798.aspx">Operations on Affinity Groups</a> for more information.
 
 
 ### <a id="replication-options"></a>Storage account replication options
@@ -104,7 +104,7 @@ In the [Management Portal](http://manage.windowsazure.cn), use **Manage Keys** o
 
 ### Copy a storage access key ###
 
-You can use **Manage Keys** to copy a storage access key to use in a connection string. The connection string requires the storage account name and a key to use in authentication. For information about configuring connection strings to access Azure storage services, see [Configuring Connection Strings](http://msdn.microsoft.com/en-us/library/ee758697.aspx).
+You can use **Manage Keys** to copy a storage access key to use in a connection string. The connection string requires the storage account name and a key to use in authentication. For information about configuring connection strings to access Azure storage services, see [Configuring Connection Strings](http://msdn.microsoft.com/zh-cn/library/ee758697.aspx).
 
 1. In the [Management Portal](http://manage.windowsazure.cn), click **Storage**, and then click the name of the storage account to open the dashboard.
 
@@ -169,7 +169,7 @@ To remove a storage account that you are no longer using, use **Delete** on the 
 
 ## <a id="next"></a>Next steps
 
-- To learn more about Azure Storage, see the Azure Storage documentation on [azure.com](/zh-cn/documentation/services/storage/) and on [MSDN](http://msdn.microsoft.com/en-us/library/gg433040.aspx). 
+- To learn more about Azure Storage, see the Azure Storage documentation on [azure.com](/zh-cn/documentation/services/storage/) and on [MSDN](http://msdn.microsoft.com/zh-cn/library/gg433040.aspx). 
 
 - Visit the [Azure Storage Team Blog](http://blogs.msdn.com/b/windowsazurestorage/).
 

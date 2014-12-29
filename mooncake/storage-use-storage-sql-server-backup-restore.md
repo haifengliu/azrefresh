@@ -28,7 +28,7 @@ For a complete walkthrough of creating a storage account and performing a simple
 ## Azure Blob Storage Service Components 
 
 * Storage Account: The storage account is the starting point for all storage services. To access an Azure Blob Storage service, first create an Azure Storage account. The storage account name and its access key properties are required to authenticate to the Azure Blob Storage service and its components. 
-For more information about Azure Blob storage service, see [How to use the Azure Blob Storage Service](http://www.windowsazure.cn/zh-cn/develop/net/how-to-guides/blob-storage-v17/)
+For more information about Azure Blob storage service, see [How to use the Azure Blob Storage Service](/zh-cn/develop/net/how-to-guides/blob-storage-v17/)
 
 * Container: A container provides a grouping of a set of Blobs, and can store an unlimited number of Blobs. To write a SQL Server backup to an Azure Blob service, you must have at least the root container created. 
 

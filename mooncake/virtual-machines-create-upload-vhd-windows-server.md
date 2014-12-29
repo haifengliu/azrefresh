@@ -6,7 +6,7 @@
 
 #Create and upload a Windows Server VHD to Azure#
 
-This article shows you how to upload a virtual hard disk (VHD) with an operating system so you can use it as an image to create virtual machines based on that image. For more information about disks and images in Microsoft Azure, see [About Disks and Images in Azure](http://msdn.microsoft.com/en-us/library/windowsazure/jj672979.aspx).
+This article shows you how to upload a virtual hard disk (VHD) with an operating system so you can use it as an image to create virtual machines based on that image. For more information about disks and images in Microsoft Azure, see [About Disks and Images in Azure](http://msdn.microsoft.com/zh-cn/library/windowsazure/jj672979.aspx).
 
 **Note**: When you create a virtual machine, you can customize the operating system settings to facilitate running your application. The configuration that you set is stored on disk for that virtual machine. For instructions, see [How to Create a Custom Virtual Machine](http://www./zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
 
@@ -19,9 +19,9 @@ This article assumes that you have the following items:
 
 - The [Add-AzureVHD](http://msdn.microsoft.com/zh-cn/library/azure/dn205185.aspx) cmdlet, which is part of the Microsoft Azure PowerShell module, is required to upload the VHD.
 
-**A supported Windows operating system stored in a .vhd file** - You have installed a supported Windows Server operating system to a virtual hard disk. Multiple tools exist to create .vhd files. You can use a virtualization solutions such as Hyper-V to create the .vhd file and install the operating system. For instructions, see [Install the Hyper-V Role and Configure a Virtual Machine](http://technet.microsoft.com/en-us/library/hh846766.aspx).
+**A supported Windows operating system stored in a .vhd file** - You have installed a supported Windows Server operating system to a virtual hard disk. Multiple tools exist to create .vhd files. You can use a virtualization solutions such as Hyper-V to create the .vhd file and install the operating system. For instructions, see [Install the Hyper-V Role and Configure a Virtual Machine](http://technet.microsoft.com/zh-cn/library/hh846766.aspx).
 
-**Important**: The VHDX format is not supported in Microsoft Azure. You can convert the disk to VHD format using Hyper-V Manager or the [Convert-VHD cmdlet](http://technet.microsoft.com/en-us/library/hh848454.aspx). A tutorial on this can be found [here](http://blogs.msdn.com/b/virtual_pc_guy/archive/2012/10/03/using-powershell-to-convert-a-vhd-to-a-vhdx.aspx).
+**Important**: The VHDX format is not supported in Microsoft Azure. You can convert the disk to VHD format using Hyper-V Manager or the [Convert-VHD cmdlet](http://technet.microsoft.com/zh-cn/library/hh848454.aspx). A tutorial on this can be found [here](http://blogs.msdn.com/b/virtual_pc_guy/archive/2012/10/03/using-powershell-to-convert-a-vhd-to-a-vhdx.aspx).
  
 **Window Server operating system media.** This task requires an .iso file that contains the Windows Server operating system. The following Windows Server versions are supported:
 <P>
@@ -64,7 +64,7 @@ This task includes the following steps:
 ## <a id="prepimage"> </a>Step 1: Prepare the image to be uploaded ##
 
 
-Before the image can be uploaded to Azure, it must be generalized by using the Sysprep command. For more information about using Sysprep, see [How to Use Sysprep: An Introduction](http://technet.microsoft.com/en-us/library/bb457073.aspx).
+Before the image can be uploaded to Azure, it must be generalized by using the Sysprep command. For more information about using Sysprep, see [How to Use Sysprep: An Introduction](http://technet.microsoft.com/zh-cn/library/bb457073.aspx).
 
 In the virtual machine that you just created, complete the following procedure:
 

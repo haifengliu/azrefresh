@@ -279,11 +279,11 @@ To learn how to use the Azure SDK for Ruby to access Azure services from your Ru
 <!-- WA.com links -->
 [blobs]: /zh-cn/documentation/articles/storage-ruby-how-to-use-blob-storage
 
-[cdn-howto]: /en-us/develop/ruby/app-services/
+[cdn-howto]: /zh-cn/develop/ruby/app-services/
 
 [management-portal]: https://manage.windowsazure.cn/
 
-[tables]: /en-us/develop/ruby/how-to-guides/table-service/
+[tables]: /zh-cn/develop/ruby/how-to-guides/table-service/
 
 [unicorn-nginx-capistrano]: /zh-cn/documentation/articles/virtual-machines-ruby-deploy-capistrano-host-nginx-unicorn/
 

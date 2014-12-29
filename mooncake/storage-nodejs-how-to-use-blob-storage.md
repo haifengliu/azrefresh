@@ -145,7 +145,7 @@ Two filters that implement retry logic are included with the Azure SDK for Node.
 
 ## <a name="upload-blob"> </a>How to: Upload a Blob into a Container
 
-A blob can be either block, or page based. Block blobs allow you to more efficiently upload large data, while page blobs are optimized for read/write operations. For more information, see [Understanding block blobs and page blobs](http://msdn.microsoft.com/en-us/library/azure/ee691964.aspx).
+A blob can be either block, or page based. Block blobs allow you to more efficiently upload large data, while page blobs are optimized for read/write operations. For more information, see [Understanding block blobs and page blobs](http://msdn.microsoft.com/zh-cn/library/azure/ee691964.aspx).
 
 ###Block blobs
 
@@ -388,7 +388,7 @@ to learn how to do more complex storage tasks.
   [How To: Delete a Blob]: #delete-blobs
   [How To: Concurrent access]: #concurrent-access
   [How To: Work with Shared Access Signatures]: #sas
-[Create and deploy a Node.js application to an Azure  Website]: /en-us/develop/nodejs/tutorials/create-a- Website-(mac)/
+[Create and deploy a Node.js application to an Azure  Website]: /zh-cn/develop/nodejs/tutorials/create-a- Website-(mac)/
   [Node.js Cloud Service with Storage]: /zh-cn/documentation/articles/storage-nodejs-use-table-storage-cloud-service-app/
   [Node.js Web Application with Storage]: /zh-cn/documentation/articles/storage-nodejs-use-table-storage-web-site/
  [ Website with WebMatrix]: /zh-cn/documentation/articles/web-sites-nodejs-use-webmatrix/
