@@ -34,7 +34,7 @@ These steps assume that you've already created an Azure virtual machine and conf
 
 	![Run Sysprep](./media/virtual-machines-capture-image-windows-server/SysprepGeneral.png)
 
-7.	Sysprep shuts down the virtual machine, which changes the status of the virtual machine in the [Management Portal](http://manage.windowsazure.com) to **Stopped**.
+7.	Sysprep shuts down the virtual machine, which changes the status of the virtual machine in the [Management Portal](http://manage.windowsazure.cn) to **Stopped**.
 
 
 8.	Click **Virtual Machines**, and then select the virtual machine you want to capture.

@@ -9,7 +9,7 @@ For a virtual machine that's running the Windows Server operating system, you us
 
 >[WACOM.NOTE] If you need to reset the user name or password, or enable RDP in the virtual machine, you can use the [VMAccess](http://go.microsoft.com/fwlink/p/?LinkId=396856) extension to do that. For requirements and troubleshooting tips, see [Connect to an Azure virtual machine with RDP or SSH](http://go.microsoft.com/fwlink/p/?LinkId=398294).
 
-1. If you have not already done so, sign in to the [Azure Management Portal](http://manage.windowsazure.com).
+1. If you have not already done so, sign in to the [Azure Management Portal](http://manage.windowsazure.cn).
 
 2. Click **Virtual Machines**, and then select the appropriate virtual machine.
 

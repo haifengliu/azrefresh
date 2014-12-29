@@ -100,13 +100,13 @@ When you create a storage account, Azure generates two 512-bit storage access ke
 
 > [WACOM.NOTE] We recommend that you avoid sharing your storage account access keys with anyone else. To permit access to storage resources without giving out your access keys, you can use a *shared access signature*. A shared access signature provides access to a resource in your account for an interval that you define and with the permissions that you specify. See the [shared access signature tutorial](../storage-dotnet-shared-access-signature-part-1/) for more information.
 
-In the [Management Portal](http://manage.windowsazure.com), use **Manage Keys** on the dashboard or the **Storage** page to view, copy, and regenerate the storage access keys that are used to access the Blob, Table, and Queue services. 
+In the [Management Portal](http://manage.windowsazure.cn), use **Manage Keys** on the dashboard or the **Storage** page to view, copy, and regenerate the storage access keys that are used to access the Blob, Table, and Queue services. 
 
 ### Copy a storage access key ###
 
 You can use **Manage Keys** to copy a storage access key to use in a connection string. The connection string requires the storage account name and a key to use in authentication. For information about configuring connection strings to access Azure storage services, see [Configuring Connection Strings](http://msdn.microsoft.com/en-us/library/ee758697.aspx).
 
-1. In the [Management Portal](http://manage.windowsazure.com), click **Storage**, and then click the name of the storage account to open the dashboard.
+1. In the [Management Portal](http://manage.windowsazure.cn), click **Storage**, and then click the name of the storage account to open the dashboard.
 
 2. Click **Manage Keys**.
 
@@ -134,7 +134,7 @@ You should change the access keys to your storage account periodically to help k
 
 1. Update the connection strings in your application code to reference the secondary access key of the storage account. 
 
-2. Regenerate the primary access key for your storage account. In the [Management Portal](http://manage.windowsazure.com), from the dashboard or the **Configure** page, click **Manage Keys**. Click **Regenerate** under the primary access key, and then click **Yes** to confirm you want to generate a new key.
+2. Regenerate the primary access key for your storage account. In the [Management Portal](http://manage.windowsazure.cn), from the dashboard or the **Configure** page, click **Manage Keys**. Click **Regenerate** under the primary access key, and then click **Yes** to confirm you want to generate a new key.
 
 3. Update the connection strings in your code to reference the new primary access key.
 
@@ -157,7 +157,7 @@ To remove a storage account that you are no longer using, use **Delete** on the 
 </div>
 
 
-1. In the [Management Portal](http://manage.windowsazure.com), click **Storage**.
+1. In the [Management Portal](http://manage.windowsazure.cn), click **Storage**.
 
 2. Click anywhere in the storage account entry except the name, and then click **Delete**.
 

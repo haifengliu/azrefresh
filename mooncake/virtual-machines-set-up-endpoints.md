@@ -21,7 +21,7 @@ Default values for the ports and protocol for these endpoints are provided when 
 
 ###Create an Endpoint###
 
-1. If you have not already done so, sign in to the [Azure Management Portal](http://manage.windowsazure.com).
+1. If you have not already done so, sign in to the [Azure Management Portal](http://manage.windowsazure.cn).
 
 2. Click **Virtual Machines**, and then select the virtual machine that you want to configure.
 
@@ -53,7 +53,7 @@ Follow these steps to add, modify, or remove an ACL on an endpoint.
 
 **Note**: If the endpoint is part of a load-balanced set, any changes you make to the ACL on an endpoint are applied to all endpoints in the set.
 
-1. If you have not already done so, sign in to the [Azure Management Portal](http://manage.windowsazure.com).
+1. If you have not already done so, sign in to the [Azure Management Portal](http://manage.windowsazure.cn).
 
 2. Click **Virtual Machines**, and then select the virtual machine that you want to configure.
 

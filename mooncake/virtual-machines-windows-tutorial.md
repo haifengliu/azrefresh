@@ -40,7 +40,7 @@ This section shows you how to log on to the virtual machine so you can manage it
 
 This section shows you how to attach an empty data disk to the virtual machine. See the [Attach a Data Disk Tutorial](http://www.windowsazure.com/en-us/documentation/articles/storage-windows-attach-disk/) for more information on attaching empty disks as well as how to attach existing disks.
 
-1. Sign in to the Azure [Management Portal](http://manage.windowsazure.com).
+1. Sign in to the Azure [Management Portal](http://manage.windowsazure.cn).
 
 2. Click **Virtual Machines**, and then select the **MyTestVM** virtual machine.
 

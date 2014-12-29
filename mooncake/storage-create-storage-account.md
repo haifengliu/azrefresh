@@ -134,7 +134,7 @@ You should change the access keys to your storage account periodically to help k
 
 1. Update the connection strings in your application code to reference the secondary access key of the storage account. 
 
-2. Regenerate the primary access key for your storage account. In the [Management Portal](http://manage.windowsazure.com), from the dashboard or the **Configure** page, click **Manage Keys**. Click **Regenerate** under the primary access key, and then click **Yes** to confirm you want to generate a new key.
+2. Regenerate the primary access key for your storage account. In the [Management Portal](http://manage.windowsazure.cn), from the dashboard or the **Configure** page, click **Manage Keys**. Click **Regenerate** under the primary access key, and then click **Yes** to confirm you want to generate a new key.
 
 3. Update the connection strings in your code to reference the new primary access key.
 
