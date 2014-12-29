@@ -33,7 +33,7 @@ An Azure storage account is a secure account that gives you access to services i
 - A standard storage account includes Blob, Table, Queue, and File storage.
 - A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure Preview page](/en-us/services/preview/).
 
-Before you can create a storage account, you must have an Azure subscription, which is a plan that gives you access to a variety of Azure services. You can create up to 100 uniquely named storage accounts with a single subscription. See [Storage Pricing Details](http://www.windowsazure.com/en-us/pricing/details/storage/) for information on volume pricing.
+Before you can create a storage account, you must have an Azure subscription, which is a plan that gives you access to a variety of Azure services. You can create up to 100 uniquely named storage accounts with a single subscription. See [Storage Pricing Details](http://www./zh-cn/pricing/details/storage/) for information on volume pricing.
 
 You can get started with Azure with a [free trial](/zh-cn/pricing/1rmb-trial/). Once you decide to purchase a plan, you can choose from a variety of [purchase options](/en-us/pricing/purchase-options/). If you’re an [MSDN subscriber](/en-us/pricing/member-offers/msdn-benefits-details/), you get free monthly credits that you can use with Azure services, including Azure Storage.
 

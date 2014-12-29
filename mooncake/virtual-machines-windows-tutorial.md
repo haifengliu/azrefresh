@@ -9,7 +9,7 @@
 
 This tutorial shows you how easy it is to create an Azure virtual machine (VM) running Windows, using as an example a Windows Server image from the Image Gallery in the Azure Management Portal. The Image Gallery offers a variety of images, including Windows operating systems, Linux-based operating systems, and application images. 
 
-> [WACOM.NOTE] You don't need any experience with Azure VMs to finish this tutorial. However, you do need an Azure account. You can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](http://www.windowsazure.com/en-us/develop/php/tutorials/create-a-windows-azure-account/). 
+> [WACOM.NOTE] You don't need any experience with Azure VMs to finish this tutorial. However, you do need an Azure account. You can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](http://www./zh-cn/develop/php/tutorials/create-a-windows-azure-account/). 
 
 This tutorial shows you:
 
@@ -38,7 +38,7 @@ This section shows you how to log on to the virtual machine so you can manage it
 
 ## <a id="attachdisk"> </a>How to attach a data disk to the new virtual machine ##
 
-This section shows you how to attach an empty data disk to the virtual machine. See the [Attach a Data Disk Tutorial](http://www.windowsazure.com/en-us/documentation/articles/storage-windows-attach-disk/) for more information on attaching empty disks as well as how to attach existing disks.
+This section shows you how to attach an empty data disk to the virtual machine. See the [Attach a Data Disk Tutorial](http://www./zh-cn/documentation/articles/storage-windows-attach-disk/) for more information on attaching empty disks as well as how to attach existing disks.
 
 1. Sign in to the Azure [Management Portal](http://manage.windowsazure.cn).
 
@@ -101,11 +101,11 @@ This section shows you how to attach an empty data disk to the virtual machine. 
 
 To learn more about configuring Windows virtual machines on Azure, see these articles:
 
-[How to Connect Virtual Machines in a Cloud Service](http://www.windowsazure.com/en-us/documentation/articles/cloud-services-connect-virtual-machine/)
+[How to Connect Virtual Machines in a Cloud Service](http://www./zh-cn/documentation/articles/cloud-services-connect-virtual-machine/)
 
-[How to Create and Upload your own Virtual Hard Disk containing the Windows Server Operating System](http://www.windowsazure.com/en-us/documentation/articles/virtual-machines-create-upload-vhd-windows-server/)
+[How to Create and Upload your own Virtual Hard Disk containing the Windows Server Operating System](http://www./zh-cn/documentation/articles/virtual-machines-create-upload-vhd-windows-server/)
 
-[Manage the Availability of Virtual Machines](http://www.windowsazure.com/en-us/documentation/articles/manage-availability-virtual-machines/)
+[Manage the Availability of Virtual Machines](http://www./zh-cn/documentation/articles/manage-availability-virtual-machines/)
 
 [About Azure VM configuration settings](http://msdn.microsoft.com/library/azure/dn763935.aspx)
 

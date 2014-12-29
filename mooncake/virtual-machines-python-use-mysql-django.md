@@ -240,7 +240,7 @@ When you're done with this tutorial, shutdown and/or remove your newly created A
 [2]: ./media/virtual-machines-python-use-mysql-django/mysql_tutorial01-2.png
 [5]: ./media/virtual-machines-python-use-mysql-django/mysql_tutorial01.png
 
-[djangohelloworld]: http://windowsazure.com/en-us/documentation/articles/virtual-machines-python-django-web-app-windows-server
+[djangohelloworld]:/zh-cn/documentation/articles/virtual-machines-python-django-web-app-windows-server
 
 [mysqldoc]: http://dev.mysql.com/doc/
 [mysqlpy]: http://pypi.python.org/pypi/MySQL-python/1.2.3
@@ -257,5 +257,5 @@ When you're done with this tutorial, shutdown and/or remove your newly created A
 [The status of the Stop-AzureService command]: ../Media/django-helloworld-ps-stop.png
 [The status of the Remove-AzureService command]: ../Media/django-helloworld-ps-remove.png
 
-[Installation Guide]: http://windowsazure.com/en-us/documentation/articles/python-how-to-install
+[Installation Guide]:/zh-cn/documentation/articles/python-how-to-install
  

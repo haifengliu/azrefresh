@@ -13,7 +13,7 @@ You are billed for Azure Storage usage based on your storage account. Storage co
 - Transactions refer to all read and write operations to Azure Storage. 
 - Data egress refers to data transferred out of an Azure region. When the data in your storage account is accessed by an application that is not running in the same region, whether that application is a cloud service or some other type of application, then you are charged for data egress. (For Azure services, you can take steps to group your data and services in the same data centers to reduce or eliminate data egress charges.)  
 
-The [Storage Pricing Details](/zh-cn/pricing/details/storage/) page provides detailed pricing information for storage capacity, replication, and transactions. The [Data Transfers Pricing Details](http://www.windowsazure.com/en-us/pricing/details/data-transfers/) provides detailed pricing information for data egress.
+The [Storage Pricing Details](/zh-cn/pricing/details/storage/) page provides detailed pricing information for storage capacity, replication, and transactions. The [Data Transfers Pricing Details](http://www./zh-cn/pricing/details/data-transfers/) provides detailed pricing information for data egress.
 
 This article describes how to create a storage account, and some decisions to consider as you create it. It also describes how to manage your storage account access keys, and how to delete a storage account.
 
