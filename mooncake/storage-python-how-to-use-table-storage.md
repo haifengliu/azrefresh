@@ -41,7 +41,7 @@ The **TableService** object lets you work with table services. The
 following code creates a **TableService** object. Add the following near
 the top of any Python file in which you wish to programmatically access Azure Storage:
 
-	from azure.storage import *
+	from azure.storage import TableService, Entity
 
 The following code creates a **TableService** object using the storage account name and account key.  Replace 'myaccount' and 'mykey' with the real account and key.
 

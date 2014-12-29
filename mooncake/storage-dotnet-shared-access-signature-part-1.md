@@ -1,10 +1,11 @@
-<properties linkid="manage-services-storage-net-shared-access-signature-part-1" urlDisplayName="" pageTitle="Shared access signatures: Understanding the SAS Model | Microsoft Azure" metaKeywords="Azure blob, Azure table, Azure queue, shared access signatures" description="Learn about delegating access to blob, queue, and table resources with shared access signatures" metaCanonical="" services="storage" documentationCenter="" title="Part 1: Understanding the SAS Model" solutions="" authors="tamram" manager="mbaldwin" editor="cgronlun" />
+<properties urlDisplayName="" pageTitle="Shared access signatures: Understanding the SAS Model | Microsoft Azure" metaKeywords="Azure blob, Azure table, Azure queue, shared access signatures" description="Learn about delegating access to blob, queue, and table resources with shared access signatures" metaCanonical="" services="storage" documentationCenter="" title="Part 1: Understanding the SAS Model" solutions="" authors="tamram" manager="adinah" />
+
 
 
 
 # Shared Access Signatures, Part 1: Understanding the SAS Model
 
-Using a shared access signature (SAS) is a powerful way to grant limited access to blobs, tables, and queues in your storage account to other clients, without having to expose your account key. In Part 1 of this tutorial on shared access signatures, we'll provide an overview of the SAS model and review SAS best practices. [Part 2](../storage-dotnet-shared-access-signature-part-2/) of the tutorial walks you through the process of creating shared access signatures with the Blob service.
+Using a shared access signature (SAS) is a powerful way to grant limited access to blobs, tables, and queues in your storage account to other clients, without having to expose your account key. In Part 1 of this tutorial on shared access signatures, we'll provide an overview of the SAS model and review SAS best practices. [Part 2](/zh-cn/documentation/articles/storage-dotnet-shared-access-signature-part-2/) of the tutorial walks you through the process of creating shared access signatures with the Blob service.
 
 ## What Is a Shared Access Signature? ##
 
@@ -208,7 +209,7 @@ Shared access signatures are useful for providing limited permissions to your st
 
 ## Next Steps ##
 
-[Shared Access Signatures, Part 2: Create and Use a SAS with the Blob Service](../storage-dotnet-shared-access-signature-part-2/)
+[Shared Access Signatures, Part 2: Create and Use a SAS with the Blob Service](/zh-cn/documentation/articles/storage-dotnet-shared-access-signature-part-2/)
 
 [Manage Access to Azure Storage Resources](http://msdn.microsoft.com/zh-cn/library/azure/ee393343.aspx)
 

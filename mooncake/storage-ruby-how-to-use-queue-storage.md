@@ -64,8 +64,8 @@ The azure module will read the environment variables **AZURE\_STORAGE\_ACCOUNT**
 for information required to connect to your Azure storage account. If these environment variables are not set, 
 you must specify the account information before using **Azure::QueueService** with the following code:
 
-	Azure.config.account_name = "<your azure storage account>"
-	Azure.config.access_key = "<your Azure storage access key>"
+	Azure.config.storage_account_name = "<your azure storage account>"
+	Azure.config.storage_access_key = "<your Azure storage access key>"
 
 To obtain these values:
 
@@ -103,7 +103,7 @@ You can peek at the message in the front of a queue without removing it from the
 
 ## <a id="how-to-dequeue-the-next-message"></a>How To: Dequeue the Next Message
 
-Your can removes a message from a queue in two steps.
+You can remove a message from a queue in two steps.
 
 1. When you call **list\_messages()**, you get the next message in a queue by default. You can also specify how many messages you want to get. The messages returned from **list\_messages()** becomes invisible to any other code reading messages from this queue. You pass in the visibility timeout in seconds as a parameter.
 

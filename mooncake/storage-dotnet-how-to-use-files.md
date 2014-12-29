@@ -1,7 +1,5 @@
 <properties urlDisplayName="File Service" pageTitle="How to use Azure File storage | Microsoft Azure" metaKeywords="Get started Azure file  Azure file share  Azure file shares  Azure file   Azure file storage   Azure file .NET   Azure file C#   Azure file PowerShell" description="Learn how to use Microsoft Azure File storage to create file shares and manage file content. Samples are written in PowerShell and C#." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter=".NET" title="How to use Microsoft Azure File storage in .NET" authors="tamram" manager="adinah" />
 
-<tags ms.service="storage" ms.workload="storage" ms.tgt_pltfrm="na" ms.devlang="dotnet" ms.topic="article" ms.date="11/10/2014" ms.author="tamram" />
-
 # How to use Azure File storage
 
 In this getting started guide, we demonstrate the basics of using Microsoft Azure File storage. First we use PowerShell to show how to create a new Azure File share, add a directory, upload a local file to the share, and list the files in the directory. Then we show how to mount the file share from an Azure virtual machine, just as you would any SMB share.
@@ -68,6 +66,14 @@ File storage contains the following components:
 
 
 For details about how to name shares, directories, and files, see [Naming and Referencing Shares, Directories, Files, and Metadata](http://msdn.microsoft.com/zh-cn/library/azure/dn167011.aspx).
+
+##<a name="create-account"></a>Create an Azure Storage account
+
+Azure File storage is currently in preview. To request access to the preview, navigate to the [Microsoft Azure Preview page](/en-us/services/preview/), and request access to **Azure Files**. Once your request is approved, you'll be notified that you can access the File storage preview. You can then create a storage account for accessing File storage.
+
+> [WACOM.NOTE] File storage is currently available only for new storage accounts. After your subscription is granted access to File storage, create a new storage account for use with this guide.
+
+[WACOM.INCLUDE [create-storage-account](../includes/create-storage-account.md)]
 
 ##<a name="use-cmdlets"></a>Use PowerShell to create a file share
 

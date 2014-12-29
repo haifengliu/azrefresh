@@ -36,7 +36,7 @@ deleting queues**. For more information on queues, refer to the [Next Steps][] s
 
 The **QueueService** object lets you work with queues. The following code creates a **QueueService** object. Add the following near the top of any Python file in which you wish to programmatically access Azure Storage:
 
-	from azure.storage import *
+	from azure.storage import QueueService
 
 The following code creates a **QueueService** object using the storage account name and account key. Replace 'myaccount' and 'mykey' with the real account and key.
 
