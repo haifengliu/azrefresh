@@ -1,10 +1,10 @@
-<properties title="Microsoft Azure Storage Performance and Scalability Checklist" pageTitle="Microsoft Azure Storage Performance and Scalability Checklist" description="Required" metaKeywords="Optional" services="Optional" solutions="Optional" documentationCenter="Optional" authors="Tamra Myers" videoId="Optional" scriptId="Optional" />
+<properties title="Windows Azure Storage Performance and Scalability Checklist" pageTitle="Windows Azure Storage Performance and Scalability Checklist" description="Required" metaKeywords="Optional" services="Optional" solutions="Optional" documentationCenter="Optional" authors="Tamra Myers" videoId="Optional" scriptId="Optional" />
 
 
 
-#Microsoft Azure Storage Performance and Scalability Checklist
+#Windows Azure Storage Performance and Scalability Checklist
 ##Introduction
-Since the release of the Microsoft Azure Storage services, Microsoft has developed a number of proven practices for using these services in a performant manner, and this article serves to consolidate the most important of them into a “checklist” style list. The intention of this article is to help application developers verify they are using proven practices with Azure Storage and to help them identify other proven practices they should consider adopting. This article does not attempt to cover every possible performance and scalability optimization — it excludes those that are small in their impact or not broadly applicable.  To the extent that the application’s behavior can be predicted during design, it’s useful to keep these in mind early on to avoid designs that will run into performance problems.  
+Since the release of the Windows Azure Storage services, Microsoft has developed a number of proven practices for using these services in a performant manner, and this article serves to consolidate the most important of them into a “checklist” style list. The intention of this article is to help application developers verify they are using proven practices with Azure Storage and to help them identify other proven practices they should consider adopting. This article does not attempt to cover every possible performance and scalability optimization — it excludes those that are small in their impact or not broadly applicable.  To the extent that the application’s behavior can be predicted during design, it’s useful to keep these in mind early on to avoid designs that will run into performance problems.  
 
 Every application developer using Azure Storage should take the time to read this article, and check that his or her application follows each of the proven practices listed below.  
 
@@ -78,7 +78,11 @@ Each of the Azure Storage services has scalability targets for capacity (GB), tr
 -	[Queue messages per second](#subheading39)  
 
 ####<a name="sub1bandwidth"></a>Bandwidth Scalability Target for All Services
-At the time of writing, the bandwidth targets in the US for a geo-redundant storage (GRS) account are 10 gigabits per second (Gbps) for ingress (data sent to the storage account) and 20 Gbps for egress (data sent from the storage account). For a locally redundant storage (LRS) account, the limits are higher – 20 Gbps for ingress and 30 Gbps for egress.  International bandwidth limits may be lower and can be found on our [scalability targets page](http://msdn.microsoft.com/zh-cn/library/azure/dn249410.aspx).  For more information on the storage redundancy options, see the links in [Useful Resources](#sub1useful) below.  
+<!--
+At the time of writing, the bandwidth targets in the China for a geo-redundant storage (GRS) account are 10 gigabits per second (Gbps) for ingress (data sent to the storage account) and 20 Gbps for egress (data sent from the storage account). For a locally redundant storage (LRS) account, the limits are higher – 20 Gbps for ingress and 30 Gbps for egress.  
+-->
+International bandwidth limits may be lower and can be found on our [scalability targets page](http://msdn.microsoft.com/zh-cn/library/azure/dn249410.aspx).  
+For more information on the storage redundancy options, see the links in [Useful Resources](#sub1useful) below.  
 
 ####What to do when approaching a scalability target
 If your application is approaching the scalability targets for a single storage account, consider adopting one of the following approaches:  
@@ -120,7 +124,7 @@ For more information about Azure CDN, see [Azure CDN](/home/features/caching/).
 ###<a name="subheading6"></a>Using SAS and CORS
 When you need to authorize code such as JavaScript in a user’s web browser or a mobile phone app to access data in Azure Storage, one approach is to use an application in web role as a proxy: the user’s device authenticates with the web role, which in turn authenticates with the storage service. In this way, you can avoid exposing your storage account keys on insecure devices. However, this places a big overhead on the web role because all the data transferred between the user’s device and the storage service must pass through the web role. You can avoid using a web role as a proxy for the storage service by using Shared Access Signatures (SAS), sometimes in conjunction with Cross-Origin Resource Sharing headers (CORS). Using SAS, you can allow your user’s device to make requests directly to a storage service by means of a limited access token. For example, if a user wants to upload a photo to your application, your web role can generate and send to the user’s device a SAS token that grants permission to write to a specific blob or container for the next 30 minutes (after which the SAS token expires).   
 
-Normally, a browser will not allow JavaScript in a page hosted by a  Website on one domain to perform specific operations such as a “PUT” to another domain. For example, if you host a web role at “contosomarketing.cloudapp.net,” and want to use client side JavaScript to upload a blob to your storage account at “contosoproducts.blob.core.windows.net,” the browser’s “same origin policy” will forbid this operation. CORS is a browser feature that allows the target domain (in this case the storage account) to communicate to the browser that it trusts requests originating in the source domain (in this case the web role).  
+Normally, a browser will not allow JavaScript in a page hosted by a  Website on one domain to perform specific operations such as a “PUT” to another domain. For example, if you host a web role at “contosomarketing.cloudapp.net,” and want to use client side JavaScript to upload a blob to your storage account at “contosoproducts.blob.core.chinacloudapi.cn,” the browser’s “same origin policy” will forbid this operation. CORS is a browser feature that allows the target domain (in this case the storage account) to communicate to the browser that it trusts requests originating in the source domain (in this case the web role).  
 
 Both of these technologies can help you avoid unnecessary load (and bottlenecks) on your web application.  
 
@@ -184,7 +188,7 @@ Note that connectivity errors can be retried immediately, because they are not t
 The client libraries are aware of which errors are retry-able and which are not. However, if you are writing your own code against the storage REST API, remember there are some errors that you should not retry: for example, a 400 (Bad Request) response indicates that the client application sent a request that could not be processed because it was not in an expected form. Resending this request will result the same response every time, so there is no point in retrying it. If you are writing your own code against the storage REST API, be aware of what the error codes mean and the proper way to retry (or not) for each of them.  
 
 ####Useful Resources
-For more information about storage error codes, see [Status and Error Codes](http://msdn.microsoft.com/zh-cn/library/azure/dd179382.aspx) on the Microsoft Azure  Website.  
+For more information about storage error codes, see [Status and Error Codes](http://msdn.microsoft.com/zh-cn/library/azure/dd179382.aspx) on the Windows Azure  Website.  
 
 ##Blobs
 In addition to the proven practices for [All Services](#allservices) described previously, the following proven practices apply specifically to the blob service.  

@@ -1,10 +1,10 @@
-<properties linkid="manage-services-import-export" urlDisplayName="Azure Import/Export Service" pageTitle="Using import/export to transfer data to Blob Storage | Microsoft Azure" metaKeywords="" description="Learn how to create import and export jobs in the Azure Management Portal to transfer data to blob storage." metaCanonical="" disqusComments="1" umbracoNaviHide="0" title="Using the Azure Import/Export Service to Transfer Data to Blob Storage" authors="tamram" manager="mbaldwin" editor="cgronlun" />
+<properties linkid="manage-services-import-export" urlDisplayName="Azure Import/Export Service" pageTitle="Using import/export to transfer data to Blob Storage | Windows Azure" metaKeywords="" description="Learn how to create import and export jobs in the Azure Management Portal to transfer data to blob storage." metaCanonical="" disqusComments="1" umbracoNaviHide="0" title="Using the Azure Import/Export Service to Transfer Data to Blob Storage" authors="tamram" manager="mbaldwin" editor="cgronlun" />
 
 
 
-# Use the Microsoft Azure Import/Export Service to Transfer Data to Blob Storage
+# Use the Windows Azure Import/Export Service to Transfer Data to Blob Storage
 
-You can use the Microsoft Azure Import/Export service to transfer large amounts of file data to Azure Blob storage in situations where uploading over the network is prohibitively expensive or not feasible. You can also use the Import/Export service to transfer large quantities of data resident in Blob storage to your on-premises installations in a timely and cost-effective manner.
+You can use the Windows Azure Import/Export service to transfer large amounts of file data to Azure Blob storage in situations where uploading over the network is prohibitively expensive or not feasible. You can also use the Import/Export service to transfer large quantities of data resident in Blob storage to your on-premises installations in a timely and cost-effective manner.
 
 To transfer a large set of file data into Blob storage, you can send one or more hard drives containing that data to an Azure data center, where your data will be uploaded to your storage account. Similarly, to export data from Blob storage, you can send empty hard drives to an Azure data center, where the Blob data from your storage account will be copied to your hard drives and then returned to you. Before you send in a drive that contains data, you'll encrypt the data on the drive; when the Import/Export service exports your data to send to you, the data will also be encrypted before shipping.
 
@@ -24,7 +24,7 @@ To begin the process of importing to or exporting from Blob storage, you first c
 
 When you create a job, you notify the Import/Export service that you will be shipping one or more hard drives to an Azure data center. For an import job, you'll be shipping hard drives containing file data. For an export job, you'll be shipping empty hard drives.
 
-To prepare your drive to ship for an import job, you'll run the **Microsoft Azure Import/Export Tool** tool, which facilitates copying your data to the drive, encrypting the data on the drive with BitLocker, and generating the drive journal files, which are discussed below.
+To prepare your drive to ship for an import job, you'll run the **Windows Azure Import/Export Tool** tool, which facilitates copying your data to the drive, encrypting the data on the drive with BitLocker, and generating the drive journal files, which are discussed below.
 
 <div class="dev-callout">
 <strong>Note</strong>
@@ -48,15 +48,15 @@ Create an import job to notify the Import/Export service that you'll be shipping
 
 <h3>Prepare Your Drives</h3>
 
-Before you create an import job, prepare your drives with the Microsoft Azure Import/Export Tool. For more details about using the Microsoft Azure Import/Export Tool, see the [Microsoft Azure Import/Export Tool Reference](http://msdn.microsoft.com/zh-cn/library/dn529096.aspx). You can download the [Microsoft Azure Import/Export Tool](http://go.microsoft.com/fwlink/?LinkID=301900&clcid=0x409) as a standalone package.
+Before you create an import job, prepare your drives with the Windows Azure Import/Export Tool. For more details about using the Windows Azure Import/Export Tool, see the [Windows Azure Import/Export Tool Reference](http://msdn.microsoft.com/zh-cn/library/dn529096.aspx). You can download the [Windows Azure Import/Export Tool](http://go.microsoft.com/fwlink/?LinkID=301900&clcid=0x409) as a standalone package.
   
 To prepare your drives, follow these three steps: 
 
 1.	Determine the data to be imported, and the number of drives you'll need.
 2.	Identify the destination blobs for your data in the Azure Blob service.
-3.	Use the Microsoft Azure Import/Export Tool to copy your data to one or more hard drives.
+3.	Use the Windows Azure Import/Export Tool to copy your data to one or more hard drives.
 
-The Microsoft Azure Import/Export Tool generates a *drive journal* file for each drive as it is prepared. The drive journal file is stored on your local computer, not on the drive itself. You'll upload the journal file when you create the import job. A drive journal file includes the drive ID and the BitLocker key, as well as other information about the drive.  
+The Windows Azure Import/Export Tool generates a *drive journal* file for each drive as it is prepared. The drive journal file is stored on your local computer, not on the drive itself. You'll upload the journal file when you create the import job. A drive journal file includes the drive ID and the BitLocker key, as well as other information about the drive.  
 
 <h3>Create the Import Job</h3>
 
@@ -222,7 +222,7 @@ For export jobs, you can view and copy the BitLocker keys generated by the servi
 	- Anker 68UPSHHDS-BU
 	- Startech SATADOCK22UE 
 
-> [WACOM.NOTE] If you have a converter which is not listed above, you can try running the Microsoft Azure Import/Export Tool using your converter to prepare the drive and see if it works before purchasing a supported converter.
+> [WACOM.NOTE] If you have a converter which is not listed above, you can try running the Windows Azure Import/Export Tool using your converter to prepare the drive and see if it works before purchasing a supported converter.
 
 **If I want to import or export more than 10 drives, what should I do?**
 
@@ -292,7 +292,7 @@ For export jobs, you can view and copy the BitLocker keys generated by the servi
 	<p>Please note that the physical media that you are shipping may need to cross international borders. You are responsible for ensuring that your physical media and data are imported and/or exported in accordance with the applicable laws. Before shipping the physical media, check with your advisors to verify that your media and data can legally be shipped to the identified data center. This will help to ensure that it reaches Microsoft in a timely manner.</p>
 	</div>
 
-- In shipping your packages, you must follow the terms at [Microsoft Azure Service Terms](/zh-cn/support/legal/services-terms/) and [Supplemental Terms of Use for Microsoft Azure Previews](http://azure.microsoft.com/zh-cn/support/legal/preview-supplemental-terms/). 
+- In shipping your packages, you must follow the terms at [Windows Azure Service Terms](/zh-cn/support/legal/services-terms/) and [Supplemental Terms of Use for Windows Azure Previews](http://azure.microsoft.com/zh-cn/support/legal/preview-supplemental-terms/). 
 
 **Can I purchase drives for import/export jobs from Microsoft?**
 

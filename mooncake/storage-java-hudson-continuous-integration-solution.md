@@ -1,4 +1,4 @@
-<properties linkid="develop-java-how-to-hudson-ci" urlDisplayName="Hudson Continuous Integration" pageTitle="How to use Hudson with the Azure Blob service | Microsoft Azure" metaKeywords="Hudson, Azure storage, Azure Blob service, Azure storage, Azure hudson" description="Describes how to use Hudson with Azure Blob storage as a repository for build artifacts." metaCanonical="" services="storage" documentationCenter="Java" title="Using Azure Storage with a Hudson Continuous Integration solution" authors="robmcm" solutions="" manager="wpickett" editor="mollybos" scriptId="" videoId="" />
+<properties linkid="develop-java-how-to-hudson-ci" urlDisplayName="Hudson Continuous Integration" pageTitle="How to use Hudson with the Azure Blob service | Windows Azure" metaKeywords="Hudson, Azure storage, Azure Blob service, Azure storage, Azure hudson" description="Describes how to use Hudson with Azure Blob storage as a repository for build artifacts." metaCanonical="" services="storage" documentationCenter="Java" title="Using Azure Storage with a Hudson Continuous Integration solution" authors="robmcm" solutions="" manager="wpickett" editor="mollybos" scriptId="" videoId="" />
 
 #Using Azure Storage with a Hudson Continuous Integration solution
 
@@ -71,7 +71,7 @@ To use the Blob service with Hudson, you'll need to install the Azure Storage pl
 2. In the **Manage Hudson** page, click **Manage Plugins**.
 3. Click the **Available** tab.
 4. Click **Others**.
-5. In the **Artifact Uploaders** section, check **Microsoft Azure Storage plugin**.
+5. In the **Artifact Uploaders** section, check **Windows Azure Storage plugin**.
 6. Click **Install**.
 7. After the installation is complete, restart Hudson.
 
@@ -79,7 +79,7 @@ To use the Blob service with Hudson, you'll need to install the Azure Storage pl
 
 1. Within the Hudson dashboard, click **Manage Hudson**.
 2. In the **Manage Hudson** page, click **Configure System**.
-3. In the **Microsoft Azure Storage Account Configuration** section:
+3. In the **Windows Azure Storage Account Configuration** section:
     1. Enter your storage account name, which you can obtain from the Azure portal, <https://manage.windowsazure.cn>.
     2. Enter your storage account key, also obtainable from the Azure portal.
     3. Use the default value for **Blob Service Endpoint URL** if you are using the public Azure cloud. If you are using a different Azure cloud, use the endpoint as specified in the Azure management portal for your storage account. 
@@ -102,7 +102,7 @@ For instruction purposes, first we'll need to create a job that will create seve
         date /t > date.txt
         time /t >> date.txt
  
-5. In the **Post-build Actions** section of the job configuration, click **Upload artifacts to Microsoft Azure Blob storage**.
+5. In the **Post-build Actions** section of the job configuration, click **Upload artifacts to Windows Azure Blob storage**.
 6. For **Storage Account Name**, select the storage account to use.
 7. For **Container Name**, specify the container name. (The container will be created if it does not already exist when the build artifacts are uploaded.) You can use environment variables, so for this example enter **${JOB_NAME}** as the container name.
 
@@ -110,7 +110,7 @@ For instruction purposes, first we'll need to create a job that will create seve
     
     Below the **Command** section where you entered a script for **Execute Windows batch command** is a link to the environment variables recognized by Hudson. Click that link to learn the environment variable names and descriptions. Note that environment variables that contain special characters, such as the **BUILD_URL** environment variable, are not allowed as a container name or common virtual path.
 
-8. Click **Make new container public by default** for this example. (If you want to use a private container, you'll need to create a shared access signature to allow access. That is beyond the scope of this topic. You can learn more about shared access signatures at [Creating a Shared Access Signature](http://go.microsoft.com/fwlink/?LinkId=279889).)
+8. Click **Make new container public by default** for this example. (If you want to use a private container, you'll need to create a shared access signature to allow access. That is beyond the scope of this topic. You can learn more about shared access signatures at [Creating a Shared Access Signature](http://msdn.microsoft.com/library/azure/jj721951.aspx).)
 9. [Optional] Click **Clean container before uploading** if you want the container to be cleared of contents before build artifacts are uploaded (leave it unchecked if you do not want to clean the contents of the container).
 10. For **List of Artifacts to upload**, enter **text/*.txt**.
 11. For **Common virtual path for uploaded artifacts**, enter **${BUILD\_ID}/${BUILD\_NUMBER}**.
@@ -154,7 +154,7 @@ The following provides an overview of the Blob service components.
 
     In the format above, `storageaccount` represents the name of your storage account, `container_name` represents the name of your container, and `blob_name` represents the name of your blob, respectively. Within the container name, you can have multiple paths, separated by a forward slash, **/**. The example container name in this tutorial was **MyJob**, and **${BUILD\_ID}/${BUILD\_NUMBER}** was used for the common virtual path, resulting in the blob having a URL of the following form:
 
-    `http://example.blob.core.windows.net/myjob/2014-05-01_11-56-22/1/hello.txt`
+    `http://example.blob.core.chinacloudapi.cn/myjob/2014-05-01_11-56-22/1/hello.txt`
 
   [Overview of Hudson]: #overview
   [Benefits of using the Blob service]: #benefits

@@ -1,4 +1,4 @@
-<properties linkid="manage-services-storage-custom-dns-storage" urlDisplayName="custom dns storage" pageTitle="Configure a domain name for blob data in a storage account | Microsoft Azure" metaKeywords="" description="Learn how to configure a custom domain for accessing blob data in an Azure storage account." metaCanonical="" services="storage" documentationCenter="" title="Configure a custom domain name for blob data in a storage account" solutions="" authors="tamram" manager="mbaldwin" editor="cgronlun" />
+<properties linkid="manage-services-storage-custom-dns-storage" urlDisplayName="custom dns storage" pageTitle="Configure a domain name for blob data in a storage account | Windows Azure" metaKeywords="" description="Learn how to configure a custom domain for accessing blob data in an Azure storage account." metaCanonical="" services="storage" documentationCenter="" title="Configure a custom domain name for blob data in a storage account" solutions="" authors="tamram" manager="mbaldwin" editor="cgronlun" />
 
 
 
@@ -8,7 +8,7 @@ You can configure a custom domain for accessing blob data in your Azure storage 
 
 > [WACOM.NOTE]	The procedures in this task apply to Azure storage accounts. For cloud services, see <a href = "/zh-cn/develop/net/common-tasks/custom-dns/">Configuring a Custom Domain Name for an Azure Cloud Service</a>; for  Websites, see <a href="/zh-cn/develop/net/common-tasks/custom-dns-web-site/">Configuring a Custom Domain Name for an Azure  Website</a>. 
 
-> [WACOM.NOTE]	A premium storage account cannot be mapped to a custom domain name. See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for information about premium storage accounts.
+> [WACOM.NOTE]	A premium storage account cannot be mapped to a custom domain name. See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](/zh-cn/documentation/articles/storage-premium-storage-preview-portal/) for information about premium storage accounts.
 
 There are two ways to point your custom domain to the blob endpoint for your storage account. The simplest way is to create a CNAME record mapping your custom domain and subdomain to the blob endpoint. A CNAME record is a DNS feature that maps a source domain to a destination domain. In this case, the source domain is your custom domain and subdomain--note that the subdomain is always required. The destination domain is your Blob service endpoint.
 
@@ -141,6 +141,7 @@ For example, you might use the following URI to access a web form via a
 
 -   http://photos.contoso.com/myforms/applicationform.htm
 
+<!--
 ## Additional Resources
 
 -   <a href="http://msdn.microsoft.com/zh-cn/library/azure/gg680307.aspx">How to Map CDN Content to a Custom Domain</a>

@@ -1,4 +1,4 @@
-<properties linkid="dev-nodejs-how-to-blob-storage" urlDisplayName="Blob Service" pageTitle="How to use blob storage (Node.js) | Microsoft Azure" metaKeywords="Get started Azure blob, Azure unstructured data, Azure unstructured storage, Azure blob, Azure blob storage, Azure blob Node.js" description="Learn how to use the Azure blob service to upload, download, list, and delete blob content. Samples written in Node.js." metaCanonical="" services="storage" documentationCenter="Node.js" title="How to Use the Blob Service from Node.js" authors="larryfr" solutions="" manager="" editor="" />
+<properties linkid="dev-nodejs-how-to-blob-storage" urlDisplayName="Blob Service" pageTitle="How to use blob storage (Node.js) | Windows Azure" metaKeywords="Get started Azure blob, Azure unstructured data, Azure unstructured storage, Azure blob, Azure blob storage, Azure blob Node.js" description="Learn how to use the Azure blob service to upload, download, list, and delete blob content. Samples written in Node.js." metaCanonical="" services="storage" documentationCenter="Node.js" title="How to Use the Blob Service from Node.js" authors="larryfr" solutions="" manager="" editor="" />
 
 
 
@@ -86,7 +86,7 @@ the top of **server.js**:
 
     var blobSvc = azure.createBlobService();
 
-> [WACOM.NOTE] You can access a blob anonymously by using **createBlobServiceAnonymous** and providing the host address. For example, `var blobSvc = azure.createBlobService('https://myblob.blob.core.windows.net/');`.
+> [WACOM.NOTE] You can access a blob anonymously by using **createBlobServiceAnonymous** and providing the host address. For example, `var blobSvc = azure.createBlobService('https://myblob.blob.core.chinacloudapi.cn/');`.
 
 All blobs reside in a container. To create a new container, use **createContainerIfNotExists**. The following creates a new container named 'mycontainer'
 

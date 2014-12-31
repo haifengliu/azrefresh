@@ -1,0 +1,2 @@
+manage-services-import-export
+virtual-machines-sharepoint-farm-azure-preview

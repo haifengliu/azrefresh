@@ -6,7 +6,7 @@
 
 #Create and upload a Windows Server VHD to Azure#
 
-This article shows you how to upload a virtual hard disk (VHD) with an operating system so you can use it as an image to create virtual machines based on that image. For more information about disks and images in Microsoft Azure, see [About Disks and Images in Azure](http://msdn.microsoft.com/zh-cn/library/windowsazure/jj672979.aspx).
+This article shows you how to upload a virtual hard disk (VHD) with an operating system so you can use it as an image to create virtual machines based on that image. For more information about disks and images in Windows Azure, see [About Disks and Images in Azure](http://msdn.microsoft.com/zh-cn/library/windowsazure/jj672979.aspx).
 
 **Note**: When you create a virtual machine, you can customize the operating system settings to facilitate running your application. The configuration that you set is stored on disk for that virtual machine. For instructions, see [How to Create a Custom Virtual Machine](/zh-cn/documentation/articles/virtual-machines-windows-tutorial/).
 
@@ -15,13 +15,13 @@ This article assumes that you have the following items:
 
 **An Azure subscription** - If you don't have one, you can create a free trial account in just a couple of minutes. For details, see [Create an Azure account](/zh-cn/develop/php/tutorials/create-a-windows-azure-account/).  
 
-**Microsoft Azure PowerShell** - You have the Microsoft Azure PowerShell module installed. To download the module, see [Microsoft Azure Downloads](/zh-cn/downloads/). A tutorial to install and configure PowerShell with your Azure Subscription can be found [here](/zh-cn/documentation/articles/install-configure-powershell/).
+**Windows Azure PowerShell** - You have the Windows Azure PowerShell module installed. To download the module, see [Windows Azure Downloads](/zh-cn/downloads/). A tutorial to install and configure PowerShell with your Azure Subscription can be found [here](/zh-cn/documentation/articles/install-configure-powershell/).
 
-- The [Add-AzureVHD](http://msdn.microsoft.com/zh-cn/library/azure/dn205185.aspx) cmdlet, which is part of the Microsoft Azure PowerShell module, is required to upload the VHD.
+- The [Add-AzureVHD](http://msdn.microsoft.com/zh-cn/library/azure/dn205185.aspx) cmdlet, which is part of the Windows Azure PowerShell module, is required to upload the VHD.
 
 **A supported Windows operating system stored in a .vhd file** - You have installed a supported Windows Server operating system to a virtual hard disk. Multiple tools exist to create .vhd files. You can use a virtualization solutions such as Hyper-V to create the .vhd file and install the operating system. For instructions, see [Install the Hyper-V Role and Configure a Virtual Machine](http://technet.microsoft.com/zh-cn/library/hh846766.aspx).
 
-**Important**: The VHDX format is not supported in Microsoft Azure. You can convert the disk to VHD format using Hyper-V Manager or the [Convert-VHD cmdlet](http://technet.microsoft.com/zh-cn/library/hh848454.aspx). A tutorial on this can be found [here](http://blogs.msdn.com/b/virtual_pc_guy/archive/2012/10/03/using-powershell-to-convert-a-vhd-to-a-vhdx.aspx).
+**Important**: The VHDX format is not supported in Windows Azure. You can convert the disk to VHD format using Hyper-V Manager or the [Convert-VHD cmdlet](http://technet.microsoft.com/zh-cn/library/hh848454.aspx). A tutorial on this can be found [here](http://blogs.msdn.com/b/virtual_pc_guy/archive/2012/10/03/using-powershell-to-convert-a-vhd-to-a-vhdx.aspx).
  
 **Window Server operating system media.** This task requires an .iso file that contains the Windows Server operating system. The following Windows Server versions are supported:
 <P>
@@ -128,13 +128,13 @@ A storage account represents the highest level of the namespace for accessing th
 
 	> [WACOM.NOTE] By default, the container is private and can be accessed only by the account owner. To allow public read access to the blobs in the container, but not the container properties and metadata, use the "Public Blob" option. To allow full public read access for the container and blobs, use the "Public Container" option.
 
-## <a id="PrepAzure"> </a>Step 3: Prepare the connection to Microsoft Azure ##
+## <a id="PrepAzure"> </a>Step 3: Prepare the connection to Windows Azure ##
 
-Before you can upload a .vhd file, you need to establish a secure connection between your computer and your subscription in Microsoft Azure. You can use the Microsoft Azure Active Directory method or the certificate method to do this.
+Before you can upload a .vhd file, you need to establish a secure connection between your computer and your subscription in Windows Azure. You can use the Windows Azure Active Directory method or the certificate method to do this.
 
-<h3>Use the Microsoft Azure AD method</h3>
+<h3>Use the Windows Azure AD method</h3>
 
-1. Open the Microsoft Azure PowerShell console, as instructed in [How to: Install Microsoft Azure PowerShell](#Install).
+1. Open the Windows Azure PowerShell console, as instructed in [How to: Install Windows Azure PowerShell](#Install).
 
 2. Type the following command:  
 	`Add-AzureAccount`
@@ -143,17 +143,17 @@ Before you can upload a .vhd file, you need to establish a secure connection bet
 
 	![PowerShell Window](./media/virtual-machines-create-upload-vhd-windows-server/add_azureaccount.png)
 
-3. Microsoft Azure authenticates and saves the credential information, and then closes the window.
+3. Windows Azure authenticates and saves the credential information, and then closes the window.
 
 <h3>Use the certificate method</h3> 
 
-1. Open a Microsoft Azure PowerShell window. 
+1. Open a Windows Azure PowerShell window. 
 
 2.	Type: 
 	`Get-AzurePublishSettingsFile`.
 
 
-3. A browser window opens and prompts you to download a .publishsettings file. It contains information and a certificate for your Microsoft Azure subscription.
+3. A browser window opens and prompts you to download a .publishsettings file. It contains information and a certificate for your Windows Azure subscription.
 
 	![Browser download page](./media/virtual-machines-create-upload-vhd-windows-server/Browser_download_GetPublishSettingsFile.png)
 
@@ -165,9 +165,9 @@ Before you can upload a .vhd file, you need to establish a secure connection bet
 	Where `<PathToFile>` is the full path to the .publishsettings file. 
 
 
-	For more information, see [Get Started with Microsoft Azure Cmdlets](http://msdn.microsoft.com/zh-cn/library/azure/jj554332.aspx) 
+	For more information, see [Get Started with Windows Azure Cmdlets](http://msdn.microsoft.com/zh-cn/library/azure/jj554332.aspx) 
 	
-	For more information on installing and configuring PowerShell, see [How to install and configure Microsoft Azure PowerShell](/zh-cn/documentation/articles/install-configure-powershell/) 
+	For more information on installing and configuring PowerShell, see [How to install and configure Windows Azure PowerShell](/zh-cn/documentation/articles/install-configure-powershell/) 
 
 
 ## <a id="upload"> </a>Step 4: Upload the .vhd file ##
@@ -175,7 +175,7 @@ Before you can upload a .vhd file, you need to establish a secure connection bet
 When you upload the .vhd file, you can place the .vhd file anywhere within your blob storage. In the following command examples, **BlobStorageURL** is the URL for the storage account that you created in Step 2, **YourImagesFolder** is the container within blob storage where you want to store your images. **VHDName** is the label that appears in the Management Portal to identify the virtual hard disk. **PathToVHDFile** is the full path and name of the .vhd file. 
 
 
-1. From the Microsoft Azure PowerShell window you used in the previous step, type:
+1. From the Windows Azure PowerShell window you used in the previous step, type:
 
 	`Add-AzureVhd -Destination "<BlobStorageURL>/<YourImagesFolder>/<VHDName>.vhd" -LocalFilePath <PathToVHDFile>`
 	
@@ -208,7 +208,7 @@ After you upload the .vhd, you add it as an image to the list of custom images a
 
 5. **OPTIONAL :** You can also use Azure PowerShell's Add-AzureVMImage cmdlet to add your VHD as an image.
 
-	From the Microsoft Azure PowerShell window, type:
+	From the Windows Azure PowerShell window, type:
 
 	`Add-AzureVMImage -ImageName <Your Image's Name> -MediaLocation <location of the VHD> -OS <Type of the OS on the VHD>`
 	
@@ -226,7 +226,7 @@ After you upload the .vhd, you add it as an image to the list of custom images a
 ## Next Steps ##
  
 
-After creating a virtual machine, trying creating a SQL Server Virtual Machine. For instructions, see [Provisioning a SQL Server Virtual Machine on Microsoft Azure](/zh-cn/documentation/articles/virtual-machines-provision-sql-server/). 
+After creating a virtual machine, trying creating a SQL Server Virtual Machine. For instructions, see [Provisioning a SQL Server Virtual Machine on Windows Azure](/zh-cn/documentation/articles/virtual-machines-provision-sql-server/). 
 
 [Step 1: Prepare the image to be uploaded]: #prepimage
 [Step 2: Create a storage account in Azure]: #createstorage

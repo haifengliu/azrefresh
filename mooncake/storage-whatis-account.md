@@ -1,4 +1,4 @@
-<properties linkid="manage-services-what-is-a-storage-account" urlDisplayName="What is a Storage Account" pageTitle="What is a storage account? | Microsoft Azure" metaKeywords="" description="Learn about the different types of storage accounts available in Azure, and get definitions for key storage terms." metaCanonical="" services="storage" documentationCenter="" title="What is a Storage Account?" authors="tamram" solutions="" manager="mbaldwin" editor="cgronlun" />
+<properties linkid="manage-services-what-is-a-storage-account" urlDisplayName="What is a Storage Account" pageTitle="What is a storage account? | Windows Azure" metaKeywords="" description="Learn about the different types of storage accounts available in Azure, and get definitions for key storage terms." metaCanonical="" services="storage" documentationCenter="" title="What is a Storage Account?" authors="tamram" solutions="" manager="mbaldwin" editor="cgronlun" />
 
 
 
@@ -9,8 +9,8 @@ An Azure storage account is a secure account that gives you access to services i
 
 There are two types of storage accounts:
 
-- A standard storage account includes Blob, Table, and Queue storage. File storage is available by request via the [Azure portal page](/zh-cn/).
-- A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure portal page](/zh-cn/). See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for an in-depth overview of Premium Storage.
+- A standard storage account includes Blob, Table, and Queue storage. File storage is available by request via the [Azure portal page](http://www.windowsazure.cn).
+- A premium storage account currently supports Azure Virtual Machine disks only. Azure Premium Storage is available by request via the [Azure portal page](/zh-cn/). See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](/zh-cn/documentation/articles/storage-premium-storage-preview-portal) for an in-depth overview of Premium Storage.
 
 You are billed for Azure Storage usage based on your storage account. Storage costs are based on four factors: storage capacity, replication scheme, storage transactions, and data egress. 
 
@@ -74,11 +74,11 @@ For example, if your storage account is named *mystorageaccount*, then the defau
 
     - Queue service: http://*mystorageaccount*.queue.core.chinacloudapi.cn
 
-- File service: http://*mystorageaccount*.file.core.windows.net
+- File service: http://*mystorageaccount*.file.core.chinacloudapi.cn
 
 You can see the endpoints for your storage account on the storage Dashboard in the Azure Management Portal once the account has been created.
 
-The URL for accessing an object in a storage account is built by appending the object's location in the storage account to the endpoint. For example, a blob address might have this format: http://*mystorageaccount*.blob.core.windows.net/*mycontainer*/*myblob*.
+The URL for accessing an object in a storage account is built by appending the object's location in the storage account to the endpoint. For example, a blob address might have this format: http://*mystorageaccount*.blob.core.chinacloudapi.cn/*mycontainer*/*myblob*.
 
 You can also configure a custom domain name to use with your storage account. See [Configure a custom domain name for blob data in a storage account](../storage-custom-domain-name/) for details.
 

@@ -1,4 +1,4 @@
-<properties linkid="develop-php-table-service" urlDisplayName="Table Service" pageTitle="How to use table storage (PHP) | Microsoft Azure" metaKeywords="Azure Table service PHP, Azure creating table, Azure deleting table, Azure insert table, Azure query table" description="Learn how to use the Table service from PHP to create and delete a table, and insert, delete, and query the table." metaCanonical="" services="storage" documentationCenter="PHP" title="How to use the Table service from PHP" authors="" solutions="" manager="" editor="" />
+<properties linkid="develop-php-table-service" urlDisplayName="Table Service" pageTitle="How to use table storage (PHP) | Windows Azure" metaKeywords="Azure Table service PHP, Azure creating table, Azure deleting table, Azure insert table, Azure query table" description="Learn how to use the Table service from PHP to create and delete a table, and insert, delete, and query the table." metaCanonical="" services="storage" documentationCenter="PHP" title="How to use the Table service from PHP" authors="" solutions="" manager="" editor="" />
 
 # How to use the Table service from PHP
 
@@ -470,7 +470,7 @@ Now that you’ve learned the basics of the Azure Table Service, follow these li
 - See the MSDN Reference: [Storing and Accessing Data in Azure] []
 - Visit the Azure Storage Team Blog: <http://blogs.msdn.com/b/windowsazurestorage/>
 
-[download]: http://go.microsoft.com/fwlink/?LinkID=252473
+[download]: http://azure.microsoft.com/zh-cn/documentation/articles/php-download-sdk/?fb=zh-cn
 [Storing and Accessing Data in Azure]: http://msdn.microsoft.com/zh-cn/library/azure/gg433040.aspx
 [require_once]: http://php.net/require_once
 [table-service-timeouts]: http://msdn.microsoft.com/zh-cn/library/azure/dd894042.aspx

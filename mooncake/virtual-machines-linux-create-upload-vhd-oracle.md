@@ -148,7 +148,7 @@ Preparing an Oracle Linux 7 virtual machine for Azure is very similar to Oracle 
 		PEERDNS=yes
 		IPV6INIT=no
 
-5.	Move (or remove) udev rules to avoid generating static rules for the Ethernet interface. These rules cause problems when cloning a virtual machine in Microsoft Azure or Hyper-V:
+5.	Move (or remove) udev rules to avoid generating static rules for the Ethernet interface. These rules cause problems when cloning a virtual machine in Windows Azure or Hyper-V:
 
 		# sudo mkdir -m 0700 /var/lib/waagent
 		# sudo mv /lib/udev/rules.d/75-persistent-net-generator.rules /var/lib/waagent/ 2>/dev/null

@@ -7,7 +7,7 @@ If you can't connect to a Linux VM because of a forgotten password, SSH key, or 
 
 ##Requirements
 
-- Microsoft Azure Linux Agent version 2.0.5 or later. Most Linux images in the Virtual Machine gallery include version 2.0.5. To find out which version is installed, run `waagent -version`. To update the agent, follow the instructions in the [Azure Linux Agent User Guide].
+- Windows Azure Linux Agent version 2.0.5 or later. Most Linux images in the Virtual Machine gallery include version 2.0.5. To find out which version is installed, run `waagent -version`. To update the agent, follow the instructions in the [Azure Linux Agent User Guide].
 
 - The Azure PowerShell module. The module includes the **Set-AzureVMExtension**  cmdlet, which you'll run commands with to use the **VMAccessForLinux** extension. For details on setting up the module, see [How to install and configure Azure PowerShell].
 

@@ -1,8 +1,8 @@
-<properties title="Managing Concurrency in Microsoft Azure Storage" pageTitle="required" description="How to manage concurrency for the Blob, Queue, Table, and File services" metaKeywords="Optional" services="Optional" solutions="Optional" documentationCenter="Optional" authors="tamram" manager="adinah" videoId="Optional" scriptId="Optional" />
+<properties title="Managing Concurrency in Windows Azure Storage" pageTitle="required" description="How to manage concurrency for the Blob, Queue, Table, and File services" metaKeywords="Optional" services="Optional" solutions="Optional" documentationCenter="Optional" authors="tamram" manager="adinah" videoId="Optional" scriptId="Optional" />
 
 
 
-#Managing Concurrency in Microsoft Azure Storage
+#Managing Concurrency in Windows Azure Storage
 Modern Internet based applications usually have multiple users viewing and updating data simultaneously. This requires application developers to think carefully about how to provide a predictable experience to their end users, particularly for scenarios where multiple users can update the same data. There are three main data concurrency strategies developers will typically consider:  
 
 
@@ -253,7 +253,7 @@ For more information see:
 - [Managing File Locks](http://msdn.microsoft.com/zh-cn/library/azure/dn194265.aspx)  
 
 #Summary and Next Steps
-The Microsoft Azure Storage service has been designed to meet the needs of the most complex online applications without forcing developers to compromise or rethink key design assumptions such as concurrency and data consistency that they have come to take for granted.  
+The Windows Azure Storage service has been designed to meet the needs of the most complex online applications without forcing developers to compromise or rethink key design assumptions such as concurrency and data consistency that they have come to take for granted.  
 
 For the complete sample application referenced in this blog:  
 
@@ -261,7 +261,7 @@ For the complete sample application referenced in this blog:
 
 For more information on Azure Storage see:  
 
-- [Microsoft Azure Storage Home Page](/home/features/storage/)
+- [Windows Azure Storage Home Page](/home/features/storage/)
 - [Introduction to Azure Storage](/zh-cn/documentation/articles/storage-introduction/)
 - Storage Getting Started for [Blob](/zh-cn/documentation/articles/storage-dotnet-how-to-use-blobs/), [Table](/zh-cn/documentation/articles/storage-dotnet-how-to-use-tables/) and [Queues](/zh-cn/documentation/articles/storage-dotnet-how-to-use-queues/)
 - Storage Architecture – [Windows Azure Storage : A Highly Available Cloud Storage Service with Strong Consistency](http://blogs.msdn.com/b/windowsazurestorage/archive/2011/11/20/windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency.aspx)

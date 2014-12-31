@@ -99,7 +99,7 @@ The Azure Linux Agent includes functionality to automatically detect this name c
 ### Ubuntu Images
 Ubuntu images utilize cloud-init, which provides additional capabilities for bootstrapping a virtual machine.
 
- - See [Custom Data and Cloud-Init on Microsoft Azure](http://azure.microsoft.com/blog/2014/04/21/custom-data-and-cloud-init-on-windows-azure/)
+ - See [Custom Data and Cloud-Init on Windows Azure](http://azure.microsoft.com/blog/2014/04/21/custom-data-and-cloud-init-on-windows-azure/)
 
 
 ## <a id="virtualmachine"></a>Virtual Machine Image Capture

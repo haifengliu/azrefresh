@@ -23,7 +23,7 @@ In this topic:
 
 ## <a id="injectingCustomData"></a>Injecting the Custom Data into your Azure Virtual Machine
 
-This feature is currently supported only in the [Microsoft Azure Cross-Platform Command-Line Interface](https://github.com/Azure/azure-sdk-tools-xplat). Although you may use any of the options for the `azure vm create` command, the following approach demonstates one very basic approach. 
+This feature is currently supported only in the [Windows Azure Cross-Platform Command-Line Interface](https://github.com/Azure/azure-sdk-tools-xplat). Although you may use any of the options for the `azure vm create` command, the following approach demonstates one very basic approach. 
 
 ```
     PASSWORD='AcceptablePassword -- more than 8 chars, a cap, a num, a special'
@@ -53,5 +53,5 @@ If your Azure Virtual Machine is an Ubuntu image, then you can use cloud-init to
 <!--Link references-->
 [Add Role Service Management REST API Reference](http://msdn.microsoft.com/library/azure/jj157186.aspx)
 
-[Microsoft Azure Cross-Platform Command-line Interface](https://github.com/Azure/azure-sdk-tools-xplat)
+[Windows Azure Cross-Platform Command-line Interface](https://github.com/Azure/azure-sdk-tools-xplat)
 

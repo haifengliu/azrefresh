@@ -1,8 +1,8 @@
-<properties urlDisplayName="File Service" pageTitle="How to use Azure File storage | Microsoft Azure" metaKeywords="Get started Azure file  Azure file share  Azure file shares  Azure file   Azure file storage   Azure file .NET   Azure file C#   Azure file PowerShell" description="Learn how to use Microsoft Azure File storage to create file shares and manage file content. Samples are written in PowerShell and C#." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter=".NET" title="How to use Microsoft Azure File storage in .NET" authors="tamram" manager="adinah" />
+<properties urlDisplayName="File Service" pageTitle="How to use Azure File storage | Windows Azure" metaKeywords="Get started Azure file  Azure file share  Azure file shares  Azure file   Azure file storage   Azure file .NET   Azure file C#   Azure file PowerShell" description="Learn how to use Windows Azure File storage to create file shares and manage file content. Samples are written in PowerShell and C#." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter=".NET" title="How to use Windows Azure File storage in .NET" authors="tamram" manager="adinah" />
 
 # How to use Azure File storage
 
-In this getting started guide, we demonstrate the basics of using Microsoft Azure File storage. First we use PowerShell to show how to create a new Azure File share, add a directory, upload a local file to the share, and list the files in the directory. Then we show how to mount the file share from an Azure virtual machine, just as you would any SMB share.
+In this getting started guide, we demonstrate the basics of using Windows Azure File storage. First we use PowerShell to show how to create a new Azure File share, add a directory, upload a local file to the share, and list the files in the directory. Then we show how to mount the file share from an Azure virtual machine, just as you would any SMB share.
 
 For users who may want to access files in a share from an on-premise application as well as from an Azure virtual machine or cloud service, we show how to use the Azure .NET Storage Client Library to work with the file share from a desktop application.
 
@@ -22,7 +22,7 @@ For users who may want to access files in a share from an on-premise application
 
 ##<a name="what-is-file-storage"></a>What is Azure File storage?
 
-File storage offers shared storage for applications using the standard SMB 2.1 protocol. Microsoft Azure virtual machines and cloud services can share file data across application components via mounted shares, and on-premise applications can access file data in a share via the File storage API.
+File storage offers shared storage for applications using the standard SMB 2.1 protocol. Windows Azure virtual machines and cloud services can share file data across application components via mounted shares, and on-premise applications can access file data in a share via the File storage API.
 
 Applications running in Azure virtual machines or cloud services can mount a File storage share to access file data, just as a desktop application would mount a typical SMB share. Any number of Azure virtual machines or roles can mount and access the File storage share simultaneously.
 
@@ -68,9 +68,9 @@ File storage contains the following components:
 For details about how to name shares, directories, and files, see [Naming and Referencing Shares, Directories, Files, and Metadata](http://msdn.microsoft.com/zh-cn/library/azure/dn167011.aspx).
 
 ##<a name="create-account"></a>Create an Azure Storage account
-
-Azure File storage is currently in preview. To request access to the preview, navigate to the [Microsoft Azure Preview page](/zh-cn/services/preview/), and request access to **Azure Files**. Once your request is approved, you'll be notified that you can access the File storage preview. You can then create a storage account for accessing File storage.
-
+<!--
+Azure File storage is currently in preview. To request access to the preview, navigate to the [Windows Azure Preview page](/zh-cn/services/preview/), and request access to **Azure Files**. Once your request is approved, you'll be notified that you can access the File storage preview. You can then create a storage account for accessing File storage.
+-->
 > [WACOM.NOTE] File storage is currently available only for new storage accounts. After your subscription is granted access to File storage, create a new storage account for use with this guide.
 
 [WACOM.INCLUDE [create-storage-account](../includes/create-storage-account.md)]
@@ -246,9 +246,9 @@ for more detailed information.
 </li>
 <li>View the Azure Storage Team's blog posts relating to the File service:
   <ul>
-    <li><a href="http://blogs.msdn.com/b/windowsazurestorage/archive/2014/05/12/introducing-microsoft-azure-file-service.aspx">Introducing Microsoft Azure File Service</a>
+    <li><a href="http://blogs.msdn.com/b/windowsazurestorage/archive/2014/05/12/introducing-microsoft-azure-file-service.aspx">Introducing Windows Azure File Service</a>
     </li>
-    <li><a href="http://blogs.msdn.com/b/windowsazurestorage/archive/2014/05/27/persisting-connections-to-microsoft-azure-files.aspx">Persisting connections to Microsoft Azure Files</a></li>
+    <li><a href="http://blogs.msdn.com/b/windowsazurestorage/archive/2014/05/27/persisting-connections-to-microsoft-azure-files.aspx">Persisting connections to Windows Azure Files</a></li>
   </ul>
 </li><li>View more feature guides to learn about additional options for storing data in Azure.
   <ul>

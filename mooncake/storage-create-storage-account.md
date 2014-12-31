@@ -79,7 +79,7 @@ For example, if your storage account is named *mystorageaccount*, then the defau
 
 You can see the endpoints for your storage account on the storage Dashboard in the Azure Management Portal once the account has been created.
 
-The URL for accessing an object in a storage account is built by appending the object's location in the storage account to the endpoint. For example, a blob address might have this format: http://*mystorageaccount*.blob.core.windows.net/*mycontainer*/*myblob*.
+The URL for accessing an object in a storage account is built by appending the object's location in the storage account to the endpoint. For example, a blob address might have this format: http://*mystorageaccount*.blob.core.chinacloudapi.cn/*mycontainer*/*myblob*.
 
 You can also configure a custom domain name to use with your storage account. See [Configure a custom domain name for blob data in a storage account](../storage-custom-domain-name/) for details.
 

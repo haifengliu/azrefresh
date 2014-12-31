@@ -1,8 +1,8 @@
-<properties linkid="storage-introduction" urlDisplayName="Introduction to Azure Storage" pageTitle="Introduction to Storage | Microsoft Azure" metaKeywords="Get started  Azure storage introduction  Azure storage overview  Azure blob   Azure unstructured data   Azure unstructured storage   Azure blob   Azure blob storage  Azure queue   Azure asynchronous processing   Azure queue   Azure queue storage Azure table   Azure nosql   Azure large structured data store   Azure table   Azure table storage   Azure " description="An overview of Microsoft Azure Storage." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter="" title="Introduction to Microsoft Azure Storage" authors="tamram" manager="mbaldwin" editor="cgronlun" />
+<properties linkid="storage-introduction" urlDisplayName="Introduction to Azure Storage" pageTitle="Introduction to Storage | Windows Azure" metaKeywords="Get started  Azure storage introduction  Azure storage overview  Azure blob   Azure unstructured data   Azure unstructured storage   Azure blob   Azure blob storage  Azure queue   Azure asynchronous processing   Azure queue   Azure queue storage Azure table   Azure nosql   Azure large structured data store   Azure table   Azure table storage   Azure " description="An overview of Windows Azure Storage." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter="" title="Introduction to Windows Azure Storage" authors="tamram" manager="mbaldwin" editor="cgronlun" />
 
-# Introduction to Microsoft Azure Storage
+# Introduction to Windows Azure Storage
 
-This article provides an introduction to Microsoft Azure Storage for developers, IT Pros, and business decision makers. By reading it, you'll learn about:
+This article provides an introduction to Windows Azure Storage for developers, IT Pros, and business decision makers. By reading it, you'll learn about:
 
 - What Azure Storage is, and how you can take advantage of it in your cloud, mobile, server, and desktop applications
 - What kinds of data you can store with the Azure Storage services: Blob, Table, Queue, and File storage
@@ -25,7 +25,7 @@ Azure Storage is accessible from anywhere in the world, from any type of applica
 Azure Storage supports clients using a diverse set of operating systems (including Windows and Linux) and a variety of programming languages (including .NET, Java, and C++) for convenient development. Azure Storage also exposes data resources via simple REST APIs, which are available to any client capable of sending and receiving data via HTTP/HTTPS.
 
 <!--
-Azure Premium Storage is now available in preview. Azure Premium Storage delivers high-performance, low-latency disk support for I/O intensive workloads running on Azure Virtual Machines. With Azure Premium Storage, you can attach multiple persistent data disks to a virtual machine and configure them to meet your performance requirements. Each data disk is backed by an SSD disk in Azure Premium Storage for maximum I/O performance. See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](http://go.microsoft.com/fwlink/?LinkId=521898) for more details. 
+Azure Premium Storage is now available in preview. Azure Premium Storage delivers high-performance, low-latency disk support for I/O intensive workloads running on Azure Virtual Machines. With Azure Premium Storage, you can attach multiple persistent data disks to a virtual machine and configure them to meet your performance requirements. Each data disk is backed by an SSD disk in Azure Premium Storage for maximum I/O performance. See [Premium Storage: High-Performance Storage for Azure Virtual Machine Workloads](/zh-cn/documentation/articles/storage-premium-storage-preview-portal/) for more details. 
 -->
 ## Introducing the Azure Storage Services ##
 
@@ -141,7 +141,7 @@ To get started with Azure Storage, explore these resources:
 
 ### Source Code
 
-- [Microsoft Azure Storage Libraries for .NET](https://github.com/Azure/azure-storage-net)
+- [Windows Azure Storage Libraries for .NET](https://github.com/Azure/azure-storage-net)
 
 ### Documentation
 

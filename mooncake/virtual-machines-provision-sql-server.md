@@ -356,7 +356,7 @@ You've seen how to create and configure a SQL Server on an Azure virtual machine
 
 - [White paper: Performance Guidance for SQL Server in Azure Virtual Machines](http://msdn.microsoft.com/zh-cn/library/windowsazure/dn248436.aspx)
 
-- [White paper: Reporting Services report viewer control and Microsoft Azure virtual machine based report servers](http://msdn.microsoft.com/library/azure/dn753698.aspx)
+- [White paper: Reporting Services report viewer control and Windows Azure virtual machine based report servers](http://msdn.microsoft.com/library/azure/dn753698.aspx)
 
 [Image5]: ./media/virtual-machines-provision-sql-server/5VM-Mode.png
 [Image5b]: ./media/virtual-machines-provision-sql-server/5VM-Connect.png

@@ -42,7 +42,7 @@ This task includes the following steps:
 
 ## <a id="prepimage"> </a>Step 1: Prepare the image to be uploaded ##
 
-Microsoft Azure supports a variety of Linux distributions (see [Endorsed Distributions](../linux-endorsed-distributions)). The following articles will guide you through how to prepare the various Linux distributions that are supported on Azure:
+Windows Azure supports a variety of Linux distributions (see [Endorsed Distributions](../linux-endorsed-distributions)). The following articles will guide you through how to prepare the various Linux distributions that are supported on Azure:
 
 - **[CentOS-based Distributions](../virtual-machines-linux-create-upload-vhd-centos)**
 - **[Oracle Linux](../virtual-machines-linux-create-upload-vhd-oracle)**

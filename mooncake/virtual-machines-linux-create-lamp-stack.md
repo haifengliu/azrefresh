@@ -1,10 +1,10 @@
-<properties urlDisplayName="How to create a LAMP Stack with Microsoft Azure" pageTitle="How to create a LAMP Stack with Microsoft Azure" metaKeywords="Azure LAMP stack vm, LAMP stack vm, Azure LAMP stack" description="Learn how to create a LAMP Stack with Microsoft Azure using Azure virtual machines (VMs) running Linux. " metaCanonical="" services="virtual-machines" documentationCenter="" title="" authors="ningk" solutions="" manager="timlt" editor="tysonn" />
+<properties urlDisplayName="How to create a LAMP Stack with Windows Azure" pageTitle="How to create a LAMP Stack with Windows Azure" metaKeywords="Azure LAMP stack vm, LAMP stack vm, Azure LAMP stack" description="Learn how to create a LAMP Stack with Windows Azure using Azure virtual machines (VMs) running Linux. " metaCanonical="" services="virtual-machines" documentationCenter="" title="" authors="ningk" solutions="" manager="timlt" editor="tysonn" />
 
-#How to create a LAMP Stack with Microsoft Azure 
+#How to create a LAMP Stack with Windows Azure 
 
 A "LAMP" stack is a group of open source software that is typically installed together to enable a server to host dynamic websites and web applications. This term is actually an acronym that represents the Linux operating system with the Apache web server. The site data is stored in a MySQL database, and dynamic content is processed by PHP.  
 
-In this guide, we'll get a LAMP stack installed on a Linux image and deploy it on Microsoft Azure.  
+In this guide, we'll get a LAMP stack installed on a Linux image and deploy it on Windows Azure.  
 
 You will learn:  
 
@@ -14,7 +14,7 @@ You will learn:
 
 It is assumed that the reader already has an Azure subscription.  If not you can sign up for a free trial at [http://www.windowsazure.cn/](http://www.windowsazure.cn/pricing/1rmb-trial/?wt.mc_id=A). 
 
-In addition to this topic, the following video presents details about using the LAMP stack on Microsoft Azure:  
+In addition to this topic, the following video presents details about using the LAMP stack on Windows Azure:  
 
 
 ##Phase 1: Create an image
