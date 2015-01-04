@@ -12,7 +12,7 @@ You will learn:
 -	How to prepare the virtual machine for the LAMP stack.
 -	How to install software that is needed by your LAMP server on the virtual machine.
 
-It is assumed that the reader already has an Azure subscription.  If not you can sign up for a free trial at [http://www.windowsazure.cn/](http://www.windowsazure.cn/pricing/1rmb-trial/?wt.mc_id=A). 
+It is assumed that the reader already has an Azure subscription.  If not you can sign up for a free trial at [http://www.windowsazure.cn/](http://www.windowsazure.cn/pricing/1rmb-trial/). 
 
 In addition to this topic, the following video presents details about using the LAMP stack on Windows Azure:  
 

@@ -21,7 +21,7 @@ The first step requires an Azure VM from a Linux image that supports the Docker 
 
 ![Create a new Ubuntu Image](./media/virtual-machines-docker-with-portal/ChooseUbuntu.png)
 
-## <a id'dockercerts'>Create Docker Certificates</a>
+## <a id="dockercerts">Create Docker Certificates</a>
 
 After the VM has been created, ensure that Docker is installed on your client computer. (For details, see [Docker installation instructions](https://docs.docker.com/installation/#installation).) 
 
@@ -42,7 +42,7 @@ At the command line, use **`base64`** or another favorite encoding tool to creat
  ca-key.pem  cert.pem  server-cert64.pem  server-key64.pem
 ```
 
-## <a id'adddockerextension'>Add the Docker VM Extension</a>
+## <a id="adddockerextension">Add the Docker VM Extension</a>
 To add the Docker VM Extension, locate the VM instance you created and scroll down to **Extensions** and click it to bring up VM Extensions, as shown below.
 
 ![](./media/virtual-machines-docker-with-portal/ClickExtensions.png)

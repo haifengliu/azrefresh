@@ -10,7 +10,7 @@ This topic describes how to create a VM with the Docker VM Extension from the xp
 
 
 
-## <a id='How to use the Docker VM Extension with Azure'>How to use the Docker VM Extension with Azure</a>
+## <a id="How to use the Docker VM Extension with Azure">How to use the Docker VM Extension with Azure</a>
 To use the Docker VM extension with Azure, you must install a version of the [Azure Cross-Platform Command-Line Interface](https://github.com/Azure/azure-sdk-tools-xplat) (called the **xplat-cli** in this topic) higher than 0.8.6 (as of this writing the current version is 0.8.10). You can install the xplat-cli on Mac, Linux, and Windows. 
 
 > [WACOM.NOTE] Although you can install the xplat-cli on Microsoft Windows, Docker was built with kernel dependencies specific to Linux. Therefore, to use Windows as a Docker client you must host a full Linux distribution as a virtual machine inside Hyper-V or another hypervisor. Once you have done that, you can use the xplat-cli and the Docker commands in this document and those of Docker. Docker itself has a setup program for Windows, [Boot2Docker](https://docs.docker.com/installation/windows/), which you can also use to automate this same setup.

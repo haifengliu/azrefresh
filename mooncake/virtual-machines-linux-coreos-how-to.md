@@ -96,9 +96,9 @@ coreos:
 `data:    2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-475.1.0              Public    Linux`
 3. Create a Cloud Service for your basic cluster by typing
 `azure service create <cloud-service-name>` where *cloud-service-name* is the name for your CoreOS cloud service. This sample uses the name **`coreos-cluster`**; you will need to reuse the name that you choose to create your CoreOS vm instances inside the Cloud Service. 
-
+<!--
 One note: If you observe your work so far in the [new portal](https://portal.azure.com), you'll find your Cloud Service name is both a resource group and domain, as the following image shows:
-
+-->
 ![][CloudServiceInNewPortal]  
 4. Connect to your cloud service and create a new CoreOS vm inside by using the **azure vm create** command. You will pass the location of your X.509 certificate in the **--ssh-cert** option. Create your first VM image by typing the following, remembering to replace **coreos-cluster** with the cloud service name that you created:
 

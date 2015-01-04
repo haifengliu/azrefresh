@@ -12,7 +12,7 @@ You will learn:
 -	How to prepare the virtual machine for tomcat7.
 -	How to install tomcat7.
 
-It is assumed that the reader already has an Azure subscription.  If not you can sign up for a free trial at [http://www.windowsazure.cn/pricing/1rmb-trial/?wt.mc_id=A](http://www.windowsazure.cn/pricing/1rmb-trial/?wt.mc_id=A). 
+It is assumed that the reader already has an Azure subscription.  If not you can sign up for a free trial at [http://www.windowsazure.cn/pricing/1rmb-trial/](http://www.windowsazure.cn/pricing/1rmb-trial/). 
 
 This topic assumes that you have basic working knowledge of tomcat and Linux.  
 

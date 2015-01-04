@@ -14,7 +14,7 @@ This tutorial covers:
 - [How to log on to the virtual machine after you create it] []
 - [How to attach a data disk to the new virtual machine] []
 
-**Important**: This tutorial creates a virtual machine that is not connected to a virtual network. If you want your virtual machine to use a virtual network, you must specify the virtual network when you create the virtual machine. For more information about virtual networks, see [Azure Virtual Network Overview](http://go.microsoft.com/fwlink/p/?LinkID=294063).
+**Important**: This tutorial creates a virtual machine that is not connected to a virtual network. If you want your virtual machine to use a virtual network, you must specify the virtual network when you create the virtual machine. For more information about virtual networks, see [Azure Virtual Network Overview](http://msdn.microsoft.com/library/azure/jj156007.aspx).
 
 ## <a id="virtualmachine"> </a>About virtual machines in Azure ##
 
@@ -28,7 +28,7 @@ The following options are available for using images to create a virtual machine
 - Create a virtual machine by using an image that is provided in the Image Gallery of the Azure Management Portal.
 - Create and upload a .vhd file that contains an image to Azure, and then create a virtual machine using the image. For more information about creating and uploading a custom image, see [Creating and Uploading a Virtual Hard Disk that Contains the Linux Operating System](/zh-cn/manage/linux/common-tasks/upload-a-vhd/).
 
-Each virtual machine resides in a cloud service, either by itself, or grouped with other virtual machines. You can place virtual machines in the same cloud service to enable the virtual machines to communicate with each other, to load-balance network traffic among virtual machines, and to maintain high availability of the machines. For more information about cloud services and virtual machines, see the "Execution Models" section in [Introducing Azure](http://go.microsoft.com/fwlink/p/?LinkId=311926).
+Each virtual machine resides in a cloud service, either by itself, or grouped with other virtual machines. You can place virtual machines in the same cloud service to enable the virtual machines to communicate with each other, to load-balance network traffic among virtual machines, and to maintain high availability of the machines. For more information about cloud services and virtual machines, see the "Execution Models" section in [Introducing Azure](http://azure.microsoft.com/zh-cn/documentation/articles/fundamentals-introduction-to-azure/?fb=zh-cn#models).
 
 ## <a id="custommachine"> </a>How to create the virtual machine ##
 
@@ -43,7 +43,7 @@ This tutorial uses the **From Gallery** method to create a virtual machine becau
 
 To learn more about Linux on Azure, see the following articles:
 
-- [Introduction to Linux on Azure](http://www.windowsazure.com/zh-cn/documentation/articles/introduction-linux/)
+- [Introduction to Linux on Azure](/zh-cn/documentation/articles/introduction-linux/)
 
 - [How to use the Azure Command-Line Tools for Mac and Linux](http://www.windowsazure.com/zh-cn/documentation/articles/xplat-cli/)
 

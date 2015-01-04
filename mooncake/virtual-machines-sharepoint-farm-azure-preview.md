@@ -2,7 +2,7 @@
 
 #SharePoint Server Farm#
 
-With SharePoint Server Farm, the Windows Azure Preview Portal automatically creates a pre-configured SharePoint Server 2013 farm for you. This can save you a lot of time when you need a basic or high-availability SharePoint farm for a development and testing environment or if you are evaluating SharePoint Server 2013 as a collaboration solution for your organization.
+With SharePoint Server Farm, the Windows Azure Portal automatically creates a pre-configured SharePoint Server 2013 farm for you. This can save you a lot of time when you need a basic or high-availability SharePoint farm for a development and testing environment or if you are evaluating SharePoint Server 2013 as a collaboration solution for your organization.
 
 The basic SharePoint farm consists of three virtual machines in the following configuration:
 

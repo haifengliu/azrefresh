@@ -3,7 +3,7 @@
 
 #How to Set Up Endpoints to a Virtual Machine
 
-**Note**: If you want to connect to your virtual machines directly by hostname or set up cross-premises connections, see [Azure Virtual Network Overview](http://go.microsoft.com/fwlink/p/?LinkID=294063).
+**Note**: If you want to connect to your virtual machines directly by hostname or set up cross-premises connections, see [Azure Virtual Network Overview](http://msdn.microsoft.com/library/azure/jj156007.aspx).
 
 All virtual machines that you create in Azure can automatically communicate using a private network channel with other virtual machines in the same cloud service or virtual network. However, other resources on the Internet or other virtual networks require endpoints to handle the inbound network traffic to the virtual machine. 
 
@@ -13,7 +13,7 @@ Each endpoint has a public port and a private port:
 
 - The private port is used internally by the virtual machine to listen for traffic on that endpoint.
 
-- The public port is used by the Azure load balancer to communicate with the virtual machine from external resources. After you create an endpoint, you can use the network access control list (ACL) to define rules that help isolate and control the incoming traffic on the public port. For more information, see [About Network Access Control Lists](http://go.microsoft.com/fwlink/p/?LinkId=303816).
+- The public port is used by the Azure load balancer to communicate with the virtual machine from external resources. After you create an endpoint, you can use the network access control list (ACL) to define rules that help isolate and control the incoming traffic on the public port. For more information, see [About Network Access Control Lists](http://msdn.microsoft.com/library/azure/dn376541.aspx).
 
 Default values for the ports and protocol for these endpoints are provided when the endpoints are created through the Management Portal. For all other endpoints, you specify the ports and protocol when you create the endpoint. Resources can connect to an endpoint by using either the TCP or UDP protocol. The TCP protocol includes HTTP and HTTPS communication.  
 
@@ -69,4 +69,4 @@ Follow these steps to add, modify, or remove an ACL on an endpoint.
 
     ![Specify ACL details](./media/virtual-machines-set-up-endpoints/EndpointACLdetails.png)
 
-6. Use rows in the list to add, delete, or edit rules for an ACL. The Remote Subnet value corresponds to the IP address range that you can either allow or deny as a rule. The rules are evaluated in order starting with the first rule and ending with the last rule. This means that rules should be listed from least restrictive to most restrictive. For examples and more information, see [About Network Access Control Lists](http://go.microsoft.com/fwlink/p/?LinkId=303816).
+6. Use rows in the list to add, delete, or edit rules for an ACL. The Remote Subnet value corresponds to the IP address range that you can either allow or deny as a rule. The rules are evaluated in order starting with the first rule and ending with the last rule. This means that rules should be listed from least restrictive to most restrictive. For examples and more information, see [About Network Access Control Lists](http://msdn.microsoft.com/library/azure/dn376541.aspx).

@@ -2,7 +2,7 @@
 
 #SharePoint Server Farm Configuration Details#
 
-SharePoint Server Farm is a feature of the Windows Azure Preview Portal that automatically creates a pre-configured SharePoint Server 2013 farm for you. There are two farm configurations:
+SharePoint Server Farm is a feature of the Windows Azure Portal that automatically creates a pre-configured SharePoint Server 2013 farm for you. There are two farm configurations:
 
 - Basic
 - High-availability

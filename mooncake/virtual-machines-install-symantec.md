@@ -6,8 +6,9 @@ This article shows you how to install and configure the Symantec Endpoint Protec
 
 The client is installed as a security extension by using the VM Agent. On a new virtual machine, you'll install the agent along with the endpoint client. On an existing virtual machine without the agent, you'll need to download and install the agent first. This article covers both situations.
 
+<!--
 If you have an existing subscription from Symantec for an on-premises solution, you can use it to protect your Azure virtual machines. If you're not a customer yet, you can sign up for a trial subscription. For more information about this solution, see [Symantec Endpoint Protection on Microsoft's Azure platform](http://go.microsoft.com/fwlink/p/?LinkId=403942). This page also provides links to licensing information and alternative instructions for installing the client if you're already a Symantec customer.
-
+-->
 ##Install Symantec Endpoint Protection on a new virtual machine
 
 The [Azure Management Portal](http://manage.windowsazure.cn) lets you install the VM Agent and the Symantec security extension when you use the **From Gallery** option to create the virtual machine. Using this approach is an easy way to add protection from Symantec if you're creating a single virtual machine. 
@@ -31,7 +32,7 @@ To install the Deep Security Agent on an existing virtual machine, you'll need t
 
 - The Azure PowerShell module, version 0.8.2 or newer. For instructions and a link to the latest version, see [How to Install and Configure Azure PowerShell](/zh-cn/documentation/articles/install-configure-powershell/).  
 
-- The VM Agent. For instructions and a link to the download, see the blog post [VM Agent and Extensions - Part 2](http://go.microsoft.com/fwlink/p/?LinkId=403947).
+- The VM Agent. For instructions and a link to the download, see the blog post [VM Agent and Extensions - Part 2](http://azure.microsoft.com/blog/2014/04/15/vm-agent-and-extensions-part-2/).
 
 Open an Azure PowerShell session and run the following commands. Be sure to substitute your own values for the placeholders, such as MyServiceName.
 

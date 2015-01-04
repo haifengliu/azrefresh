@@ -513,11 +513,7 @@ Successful deployment of SharePoint Server on Azure Virtual Machines requires so
 </li>
 <li>
 <p>Command-line Tools and PowerShell Cmdlets for Different Operating Systems</p>
-<p><a href="/zh-cn/manage/downloads/">https://www./zh-cn/manage/downloads/</a></p>
-</li>
-<li>
-<p>How-to Guides and Best Practices Documentation</p>
-<p><a href="/zh-cn/manage/windows/">https://www./zh-cn/manage/windows/</a></p>
+<p><a href="/zh-cn/downloads/">https://www.windowsazure.cn/zh-cn/downloads/</a></p>
 </li>
 </ul>
 

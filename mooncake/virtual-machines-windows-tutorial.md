@@ -17,7 +17,7 @@ This tutorial shows you:
 - [How to log on to the virtual machine after you create it](#logon)
 - [How to attach a data disk to the new virtual machine](#attachdisk)
 
-If you'd like to know more, see [Virtual Machines](http://go.microsoft.com/fwlink/p/?LinkID=271224).
+If you'd like to know more, see [Virtual Machines](http://msdn.microsoft.com/library/azure/jj156003.aspx).
 
 
 ##<a id="createvirtualmachine"> </a>How to create the virtual machine##
